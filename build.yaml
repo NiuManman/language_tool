@@ -1,0 +1,12 @@
+targets:
+  $default:
+    builders:
+      custom_code_generator|custom_builder:
+        enabled: true
+
+builders:
+  custom_code_generator:
+    import: "package:languagetool/custom_code_generator/custom_code_generator.dart"
+    builder_factories: ["customCodeBuilder"]
+    build_extensions: {"A.dart": [".dart"]}  # 修改输出文件扩展名为 .generated.dart
+    auto_apply: root_package
