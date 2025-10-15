@@ -1,0 +1,92 @@
+Map<String, dynamic> en = {
+  "按户分摊：公区电表关联的房间按当前有人入住的房间数平摊\n按人分摊：公区电表关联的房间按当前入住中入住的人数来分摊":
+      "Per room allocation: Split evenly among the rooms that are currently occupied.\nPer person allocation: Split based on the number of people currently residing.",
+  "按户分摊": "Per Room Allocation",
+  "按人分摊": "Per Person Allocation",
+  "电费单价": "Electricity rate",
+  "按户分摊：公区水表关联的房间按当前有人入住的房间数平摊\n按人分摊：公区水表关联的房间按当前入住中入住的人数来分摊":
+      "Per room allocation: Split evenly among the rooms that are currently occupied.\nPer person allocation: Split based on the number of people currently residing.",
+  "计能电表设置": "Postpaid electricity meter settings",
+  "水表设置": "Water meter settings",
+  "预付费电表设置": "Prepaid electricity meter settings",
+  "预付费水表设置": "Prepaid water meter settings",
+  "公区电表分摊设置": "Public electricity meter sharing settings",
+  "电费单价设置": "Electricity rate settings",
+  "公区水表分摊设置": "Public water meter sharing settings",
+  "电费充值设置": "Electricity recharge settings",
+  "水费充值设置": "Water recharge settings",
+  "公区电表关联的房间按当前有人入住的房间数平摊":
+      "Split evenly among the rooms that are currently occupied.\n",
+  "公区电表关联的房间按当前入住中入住的人数来分摊":
+      "Split based on the number of people currently residing.",
+  "公区水表关联的房间按当前有人入住的房间数平摊":
+      "Split evenly among the rooms that are currently occupied.",
+  "公区水表关联的房间按当前入住中入住的人数来分摊":
+      "Split based on the number of people currently residing.",
+  "水量不足短信通知": "Low water level SMS alert",
+  "电量不足短信通知": "Low electricity balance alert via SMS",
+  "自动在设定的电量不足度数时通知入住人，请保证短信余额充足":
+      "Automatically notify the tenant when the electricity balance falls below the threshold, please ensure sufficient SMS balance.",
+  "自动在设定的水量不足参数时通知入住人，请保证短信余额充足":
+      "Automatically notify the tenant when the water balance falls below the threshold, please ensure sufficient SMS balance.",
+  "不足%d度": "Less than %d kWh",
+  "不足%d吨": "Less than %d m³.",
+  "%d度": "%d kWh",
+  "%d吨": "%d m³",
+  "%d元/度": "%i%d /kWh",
+  "%d元/吨": "%i%d /m³",
+  "房间电表欠费自动断电": "Automatic power cut for outstanding balance",
+  "房间电表缴费自动通电": "Automatic power on after payment",
+  "房间电表退房自动断电": "Automatic power cut upon checkout",
+  "房间电表入住自动通电": "Automatic power on upon checkin",
+  "退房剩余电量自动清零": "Automatic zeroing upon checkout",
+  "临时用电度数": "Temporary available electricity",
+  "说明：员工操作临时用电后，会记录在电表的操作记录中":
+      "Note: The operation will be recorded in the electricity meter’s operation log.",
+  "电费": "Electricity fee",
+  "服务费": "Service fee",
+  "管理费": "Management fee",
+  "冷水费": "Cold water fee",
+  "热水费": "Hot water fee",
+  "提示：水费单价设置应遵守国家法律法规相关规定":
+      "Note: The water rate setting should comply with the relevant national laws and regulations.",
+  "请设置电费单价为0.1 ~ 999999999999.99":
+      "Please set the electricity rate between 0.1 ~ 999999999999.99",
+  "请设置水费单价为0.1 ~ 999999999999.99":
+      "Please set the water rate between 0.1 ~ 999999999999.99",
+  "请设置服务费为0.1 ~ 999999999999.99":
+      "Set the service fee between 0.1 and 999999999999.99.",
+  "请设置管理费为0.1 ~ 999999999999.99":
+      "Set the management fee between 0.1 and 999999999999.99.",
+  "冷水单价": "Cold water rate",
+  "热水单价": "Hot water rate",
+  "临时冷水量(吨)": "Temporary available cold water (m³)",
+  "临时用水量(吨)": "Temporary available water (m³)",
+  "临时热水量(吨)": "Temporary available hot water (m³)",
+  "水电充值": "Utility recharge",
+  "水表名称": "Water meter name",
+  "电表名称": "Electric meter name",
+  "预付费": "Prepaid",
+  "计能": "Postpaid",
+  "剩余水量": "Remaining water",
+  "剩余冷水量": "Remaining cold water",
+  "剩余热水量": "Remaining hot water",
+  "通水": "Water On",
+  "断水": "Water Off",
+  "磁干扰": "Magnetic interference",
+  "水阀故障": "Water valve malfunction",
+  "清水量": "Clear water balance",
+  "电表类型": "Type",
+  "水表类型": "Type",
+  "底数校准": "Base calibration",
+  "设定值范围：%s-%s": "Setting range: %min-%max",
+  "低电量水表": "Low Battery water meter",
+  "未抄表": "Meter not read",
+  "入住未抄表": "Move-in meter not read",
+  "抄表": "Meter reading",
+  "水表": "Water meter",
+  "消费电量": "Electricity usage",
+  "水表号": "Water meter number",
+  "用电记录": "Electricity usage records",
+  "月份": "Month"
+};

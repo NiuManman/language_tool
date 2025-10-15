@@ -68,7 +68,7 @@ class CustomCodeGenerator extends Builder {
 
       // 确定生成文件的路径（将文件扩展名改为 _generated.dart）
       final outputFilePath =
-          'lib/generated/${assetId.pathSegments.last.replaceAll('.dart', '${languageStr}_generated.dart')}';
+          'lib/generated/${languageFileNames[i]}.dart';
       final outputFile = File(outputFilePath);
       // 将处理后的字符串写入到新的文件中
       await outputFile.writeAsString('Map<String, dynamic>' +

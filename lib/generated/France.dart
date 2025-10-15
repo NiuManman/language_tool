@@ -1,0 +1,92 @@
+Map<String, dynamic> France = {
+  "按户分摊：公区电表关联的房间按当前有人入住的房间数平摊\n按人分摊：公区电表关联的房间按当前入住中入住的人数来分摊":
+      "Répartition par logement : Répartir équitablement entre les chambres actuellement occupées.\nRépartition par personne : Répartir en fonction du nombre de personnes actuellement résidantes.",
+  "按户分摊": "Répartition par Chambre",
+  "按人分摊": "Allocation par personne",
+  "电费单价": "Tarif électricité",
+  "按户分摊：公区水表关联的房间按当前有人入住的房间数平摊\n按人分摊：公区水表关联的房间按当前入住中入住的人数来分摊":
+      "Par répartition par chambre : Répartir équitablement entre les chambres actuellement occupées liées au compteur d'eau commun.\nPar répartition par personne : Répartir selon le nombre de personnes résidant actuellement dans les chambres liées au compteur d'eau commun.",
+  "计能电表设置": "Paramètres compteur électrique postpayé",
+  "水表设置": "Paramètres du compteur d'eau",
+  "预付费电表设置": "Paramètres du compteur électrique prépayé",
+  "预付费水表设置": "Paramètres compteur eau prépayé",
+  "公区电表分摊设置": "Paramètres de répartition du compteur électrique commun",
+  "电费单价设置": "Tarif d'électricité",
+  "公区水表分摊设置": "Répartition compteur eau commun",
+  "电费充值设置": "Paramètres recharge élec.",
+  "水费充值设置": "Paramètres recharge eau",
+  "公区电表关联的房间按当前有人入住的房间数平摊":
+      "Répartir équitablement entre les chambres actuellement occupées.\n",
+  "公区电表关联的房间按当前入住中入住的人数来分摊":
+      "Répartir en fonction du nombre de personnes actuellement résidantes.",
+  "公区水表关联的房间按当前有人入住的房间数平摊":
+      "Répartir équitablement entre les chambres actuellement occupées liées au compteur d'eau commun.\n",
+  "公区水表关联的房间按当前入住中入住的人数来分摊":
+      "Répartir selon le nombre de personnes résidant actuellement dans les chambres liées au compteur d'eau commun.",
+  "水量不足短信通知": "Alerte SMS niveau d'eau bas",
+  "电量不足短信通知": "Alerte SMS solde électrique bas",
+  "自动在设定的电量不足度数时通知入住人，请保证短信余额充足":
+      "Notifier automatiquement le locataire lorsque le solde d'électricité tombe en dessous du seuil, veuillez vous assurer que le solde SMS est suffisant.",
+  "自动在设定的水量不足参数时通知入住人，请保证短信余额充足":
+      "Notifier automatiquement le résident lorsque le solde d'eau devient insuffisant, veuillez vous assurer d'un solde SMS suffisant.",
+  "不足%d度": "Moins de %d kWh",
+  "不足%d吨": "Moins de %d m³.",
+  "%d度": "%d kWh",
+  "%d吨": "%d m³",
+  "%d元/度": "%i%d /kWh",
+  "%d元/吨": "%i%d /m³",
+  "房间电表欠费自动断电": "Coupure automatique pour solde impayé",
+  "房间电表缴费自动通电": "Rétablissement automatique après paiement",
+  "房间电表退房自动断电": "Coupure auto. d'électricité au départ",
+  "房间电表入住自动通电": "Auto-activation à l'arrivée",
+  "退房剩余电量自动清零": "Mise à zéro automatique au départ",
+  "临时用电度数": "Électricité temporaire disp.",
+  "说明：员工操作临时用电后，会记录在电表的操作记录中":
+      "Remarque : L'opération sera enregistrée dans le journal d'opérations du compteur électrique.",
+  "电费": "Frais d'électricité",
+  "服务费": "Frais de service",
+  "管理费": "Frais de gestion",
+  "冷水费": "Eau froide",
+  "热水费": "Frais d'eau chaude",
+  "提示：水费单价设置应遵守国家法律法规相关规定":
+      "Note : Le tarif de l'eau doit respecter les lois et règlements nationaux en vigueur.",
+  "请设置电费单价为0.1 ~ 999999999999.99":
+      "Veuillez définir le tarif électrique entre 0,1 ~ 99,99",
+  "请设置水费单价为0.1 ~ 999999999999.99":
+      "Veuillez définir le tarif de l'eau entre 0,1 à 99,99",
+  "请设置服务费为0.1 ~ 999999999999.99":
+      "Configurer frais de service entre 0.1 et 99.99",
+  "请设置管理费为0.1 ~ 999999999999.99":
+      "Définissez les frais de gestion entre 0.1 et 99.99.",
+  "冷水单价": "Taux d'eau froide",
+  "热水单价": "Tarif de l'eau chaude",
+  "临时冷水量(吨)": "Eau froide temporaire (tonnes)",
+  "临时用水量(吨)": "Volume d'eau temporaire disponible (m³)",
+  "临时热水量(吨)": "Eau chaude temporaire (m³)",
+  "水电充值": "Recharge eau/élec",
+  "水表名称": "Nom du compteur d'eau",
+  "电表名称": "Nom du compteur électrique",
+  "预付费": "Prépayé",
+  "计能": "Postpayé",
+  "剩余水量": "Eau restante",
+  "剩余冷水量": "Eau froide restante",
+  "剩余热水量": "Restant d'eau chaude",
+  "通水": "Eau On",
+  "断水": "Eau OFF",
+  "磁干扰": "Interférence magnétique",
+  "水阀故障": "Défaut vanne d'eau",
+  "清水量": "Solde d'eau",
+  "电表类型": "Type de compteur",
+  "水表类型": "Type de compteur d'eau",
+  "底数校准": "Calibration de base",
+  "设定值范围：%s-%s": "Plage de réglage : %min-%max",
+  "低电量水表": "Compteur d'eau - Batterie faible",
+  "未抄表": "Mètre non lu",
+  "入住未抄表": "Relevé compteur non effectué à l'entrée",
+  "抄表": "Relevé Cpt",
+  "水表": "compteur d'eau",
+  "消费电量": "Consommation électrique",
+  "水表号": "N° compteur d'eau",
+  "用电记录": "Historique de consommation d'électricité",
+  "月份": "mois"
+};
