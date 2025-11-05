@@ -1,92 +1,21 @@
 Map<String, dynamic> Deutsch = {
-  "按户分摊：公区电表关联的房间按当前有人入住的房间数平摊\n按人分摊：公区电表关联的房间按当前入住中入住的人数来分摊":
-      "Pro Zimmer: Gleichmäßig auf aktuell belegte Zimmer verteilen, die mit dem Gemeinschaftszähler verbunden sind.\nPro Person: Aufteilung basierend auf der Anzahl der aktuell bewohnten Personen.",
-  "按户分摊": "Pro Zimmer-Zuweisung",
-  "按人分摊": "Pro Person",
-  "电费单价": "Strompreis",
-  "按户分摊：公区水表关联的房间按当前有人入住的房间数平摊\n按人分摊：公区水表关联的房间按当前入住中入住的人数来分摊":
-      "Aufteilung pro Raum: Gemeinschaftswassermesser werden gleichmäßig auf aktuell belegte Zimmer verteilt.\nAufteilung pro Person: Gemeinschaftswassermesser werden basierend auf der Anzahl aktuell wohnender Personen verteilt.",
-  "计能电表设置": "Einstellungen für Nachzahlungs-Stromzähler",
-  "水表设置": "Wassermessereinstellungen",
-  "预付费电表设置": "Voreinstellungen für Prepaid-Stromzähler",
-  "预付费水表设置": "Vorausbezahlter Wasserzähler Einstellungen",
-  "公区电表分摊设置": "Gemeinschafts-Stromzähler-Aufteilungseinstellungen",
-  "电费单价设置": "Stromtarif-Einstellungen",
-  "公区水表分摊设置": "Gemeinschafts-Wassermesser-Aufteilungseinstellungen",
-  "电费充值设置": "Stromkosten-Aufladeeinstellungen",
-  "水费充值设置": "Wasseraufladung Einstellungen",
-  "公区电表关联的房间按当前有人入住的房间数平摊":
-      "Gleichmäßig auf aktuell belegte Zimmer verteilen, die mit dem Gemeinschaftszähler verbunden sind.\n",
-  "公区电表关联的房间按当前入住中入住的人数来分摊":
-      "Aufteilung basierend auf der Anzahl der aktuell bewohnten Personen.",
-  "公区水表关联的房间按当前有人入住的房间数平摊":
-      "Gemeinschaftswassermesser werden gleichmäßig auf aktuell belegte Zimmer verteilt.\n",
-  "公区水表关联的房间按当前入住中入住的人数来分摊":
-      "Gemeinschaftswassermesser werden basierend auf der Anzahl aktuell wohnender Personen verteilt.",
-  "水量不足短信通知": "Niedriger Wasserstand SMS-Alarm",
-  "电量不足短信通知": "Stromguthaben niedrig: SMS-Benachrichtigung",
-  "自动在设定的电量不足度数时通知入住人，请保证短信余额充足":
-      "Automatische Benachrichtigung des Mieters bei Unterschreitung des eingestellten Stromschwellenwerts. Stellen Sie ausreichendes SMS-Guthaben sicher.",
-  "自动在设定的水量不足参数时通知入住人，请保证短信余额充足":
-      "Automatische Benachrichtigung des Mieters bei Unterschreitung des Wasser-Schwellenwerts, ausreichendes SMS-Guthaben sicherstellen",
-  "不足%d度": "Unter %d kWh",
-  "不足%d吨": "Weniger als %d m³.",
-  "%d度": "%d kWh",
-  "%d吨": "%d t / %d m³",
-  "%d元/度": "%i%d /kWh",
-  "%d元/吨": "%i%d /m³",
-  "房间电表欠费自动断电": "Automatische Stromabschaltung bei ausstehenden Gebühren",
-  "房间电表缴费自动通电": "Automatische Stromzufuhr nach Bezahlung",
-  "房间电表退房自动断电": "Automatische Stromabschaltung beim Auszug",
-  "房间电表入住自动通电": "Stromautomatik bei Checkin",
-  "退房剩余电量自动清零": "Automatische Nullung beim Auszug",
-  "临时用电度数": "Temporäre Strommenge",
-  "说明：员工操作临时用电后，会记录在电表的操作记录中":
-      "Die Bedienung wird im Bedienprotokoll des Stromzählers aufgezeichnet.",
-  "电费": "Stromgebühr",
-  "服务费": "Servicegebühr",
-  "管理费": "Verwaltungsgebühr",
-  "冷水费": "Kaltwasserkosten",
-  "热水费": "Warmwasserkosten",
-  "提示：水费单价设置应遵守国家法律法规相关规定":
-      "Hinweis: Die Wasserpreiseinstellung muss den geltenden nationalen Gesetzen und Vorschriften entsprechen.",
-  "请设置电费单价为0.1 ~ 999999999999.99":
-      "Bitte setzen Sie den Strompreis zwischen 0,1 ~ 99,99",
-  "请设置水费单价为0.1 ~ 999999999999.99":
-      "Bitte den Wasserpreis zwischen 0,1 und 99,99 einstellen",
-  "请设置服务费为0.1 ~ 999999999999.99":
-      "Servicegebühr zwischen 0.1 und 99.99 festlegen",
-  "请设置管理费为0.1 ~ 999999999999.99":
-      "Verwaltungsgebühr zwischen 0,1 und 99,99 festlegen.",
-  "冷水单价": "Kaltwasserpreis",
-  "热水单价": "Warmwasserpreis",
-  "临时冷水量(吨)": "Temp. Kaltwasser (m³)",
-  "临时用水量(吨)": "Vorübergehend verfügbares Wasser (m³)",
-  "临时热水量(吨)": "Vorübergehend verfügbares Warmwasser (m³)",
-  "水电充值": "Guthaben aufladen",
-  "水表名称": "Wasserzählername",
-  "电表名称": "Stromzählername",
-  "预付费": "Prepaid",
-  "计能": "Nachverbrauch",
-  "剩余水量": "Restwasser",
-  "剩余冷水量": "Verbleibendes kaltes Wasser",
-  "剩余热水量": "Rest Warmwasser",
-  "通水": "Wasser ein",
-  "断水": "Wasser aus",
-  "磁干扰": "magnetische Störung",
-  "水阀故障": "Wasserventil-Störung",
-  "清水量": "Wasserstand zurücksetzen",
-  "电表类型": "Typ",
-  "水表类型": "Typ",
-  "底数校准": "Basis-Kalibrierung",
-  "设定值范围：%s-%s": "Einstellbereich: %min-%max",
-  "低电量水表": "Wasserzähler mit niedrigem Akkustand",
-  "未抄表": "Zähler nicht ausgelesen",
-  "入住未抄表": "Einzug-Zähler nicht abgelesen",
-  "抄表": "Zählerstand",
-  "水表": "Wasserzähler",
-  "消费电量": "Stromverbrauch",
-  "水表号": "Wasserzähler-Nr.",
-  "用电记录": "Stromverbrauchsprotokolle",
-  "月份": "Monat"
+  "通断水返回错误": "Wasserabsperrungsfehler",
+  "附近的水表": "Näheres Wasserzähler",
+  "冷水费充值": "Kaltwasser-Nachfüllung",
+  "热水费充值": "Warmwasser-Aufladung",
+  "未绑定水表": "Wasserzähler nicht gebunden",
+  "未绑定电表": "Zähler nicht gebunden",
+  "该水表已经存在": "Der Wasserzähler existiert bereits",
+  "该电表已经存在": "Der Zähler existiert bereits",
+  "蓝牙断开连接": "Bluetooth getrennt",
+  "用水记录将按校准后数值做为起始值重新计费":
+      "Wasserverbrauchsdaten werden ab dem kalibrierten Wert neu abgerechnet",
+  "电表已经关联了房间，请先解除关联后再操作":
+      "Zähler ist bereits einem Raum zugeordnet. Zuerst aufheben, bevor fortgesetzt wird.",
+  "水表已经关联了房间，请先解除关联后再操作":
+      "Zähler ist bereits einem Raum zugeordnet. Bitte zuerst trennen, bevor fortgefahren wird.",
+  "将在下个结算日：按户分摊": "Wird beim nächsten Abrechnungsdatum pro Raum zugewiesen",
+  "将在下个结算日：按人分摊": "Wird am nächsten Abrechnungsdatum zugewiesen: pro Person",
+  "将在一个小时后：按户分摊": "Wird in 1 Stunde zugewiesen: nach Raum",
+  "将在一个小时后：按人分摊": "Wird in 1 Stunde zugewiesen: durch Person"
 };

@@ -2,13 +2,12 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:build/build.dart';
 import 'package:languagetool/A.dart';
-
-
+// import 'package:languagetool/A.dart';
+import 'package:languagetool/JoyStayString.dart';
 
 // flutter pub run build_runner clean
 // flutter pub run build_runner build
 //excel转数组： https://tableconvert.com/zh-cn/excel-to-json#google_vignette
-
 
 // 自定义代码生成器
 class CustomCodeGenerator extends Builder {
@@ -57,18 +56,29 @@ class CustomCodeGenerator extends Builder {
       'Melayu',
     ];
 
+    List<Map<String, dynamic>> willDealStringsList = originalList;
+
     for (int i = 0; i < languageStrs.length; i++) {
       final languageStr = languageStrs[i];
+      // Map<String, dynamic> languageMap = i == 0 ? {} : en;
       Map<String, dynamic> languageMap = {};
 
-      for (var i = 0; i < originalList.length; i++) {
-        String keyStr = originalList[i]['简体中文'] ?? "";
-        languageMap[keyStr] = originalList[i][languageStr] ?? "";
+      for (var j = 0; j < willDealStringsList.length; j++) {
+        String keyStr = willDealStringsList[j]['简体中文'] ??
+            (willDealStringsList[j]['1 简体中文']);
+        String newStr = '${i + 1} $languageStr';
+        print('=====原来的$languageStr==新的$newStr');
+
+        if (languageMap[keyStr] == '') {
+          languageMap.remove(keyStr);
+        }
+        if (languageMap[keyStr] == null)
+          languageMap[keyStr] = (willDealStringsList[j][languageStr]) ??
+              (willDealStringsList[j][(newStr)]);
       }
 
       // 确定生成文件的路径（将文件扩展名改为 _generated.dart）
-      final outputFilePath =
-          'lib/generated/${languageFileNames[i]}.dart';
+      final outputFilePath = 'lib/generated/${languageFileNames[i]}.dart';
       final outputFile = File(outputFilePath);
       // 将处理后的字符串写入到新的文件中
       await outputFile.writeAsString('Map<String, dynamic>' +
