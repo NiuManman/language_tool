@@ -565,7 +565,7 @@ List<Map<String, dynamic>> originalList_JoyStay = [
     "马来语（Bahasa Melayu）": "Rekod air panas",
     "": ""
   },
- {
+  {
     "1 简体中文": "蓝牙更新",
     "2 English": "BT Update",
     "3 繁体中文": "藍牙更新",
@@ -631,50 +631,81 @@ List<Map<String, dynamic>> originalList_JoyStay = [
   },
   {
     "1 简体中文": "电费余额不足，请联系公寓管理员及时充值",
-    "2 English": "Insufficient electricity balance. Please contact the manager to recharge.",
+    "2 English":
+        "Insufficient electricity balance. Please contact the manager to recharge.",
     "3 繁体中文": "電費餘額不足，請聯繫公寓管理員及時充值",
-    "4 西班牙语（Español）": "Saldo eléctrico insuficiente. Comuníquese con el administrador para recargar.",
-    "5 葡萄牙语（Português）": "Saldo elétrico insuficiente. Contate o gerente para recarregar.",
-    "6 法语（Français）": "Solde électrique insuffisant. Veuillez contacter le gestionnaire pour recharger.",
-    "7 越南语（Tiếng Việt）": "Số dư điện không đủ. Vui lòng liên hệ quản lý để nạp tiền.",
-    "8 意大利语（Italiano）": "Saldo elettrico insufficiente. Contattare il gestore per ricaricare.",
-    "9 俄语（Русский）": "Недостаточный баланс электричества. Пожалуйста, свяжитесь с менеджером для пополнения.",
-    "10 德语（Deutsch）": "Stromguthaben zu niedrig. Bitte kontaktieren Sie den Verwalter, um aufzuladen.",
-    "11 泰语（ภาษาไทย）": "ยอดเงินไฟฟ้าไม่เพียงพอ กรุณาติดต่อผู้จัดการเพื่อเติมเงิน",
-    "12 印度尼西亚语（Bahasa Indonesia）": "Saldo listrik tidak mencukupi. Hubungi manajer untuk isi ulang.",
-    "13 马来语（Bahasa Melayu）": "Baki elektrik tidak mencukupi. Sila hubungi pengurus untuk mengisi semula.",
+    "4 西班牙语（Español）":
+        "Saldo eléctrico insuficiente. Comuníquese con el administrador para recargar.",
+    "5 葡萄牙语（Português）":
+        "Saldo elétrico insuficiente. Contate o gerente para recarregar.",
+    "6 法语（Français）":
+        "Solde électrique insuffisant. Veuillez contacter le gestionnaire pour recharger.",
+    "7 越南语（Tiếng Việt）":
+        "Số dư điện không đủ. Vui lòng liên hệ quản lý để nạp tiền.",
+    "8 意大利语（Italiano）":
+        "Saldo elettrico insufficiente. Contattare il gestore per ricaricare.",
+    "9 俄语（Русский）":
+        "Недостаточный баланс электричества. Пожалуйста, свяжитесь с менеджером для пополнения.",
+    "10 德语（Deutsch）":
+        "Stromguthaben zu niedrig. Bitte kontaktieren Sie den Verwalter, um aufzuladen.",
+    "11 泰语（ภาษาไทย）":
+        "ยอดเงินไฟฟ้าไม่เพียงพอ กรุณาติดต่อผู้จัดการเพื่อเติมเงิน",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Saldo listrik tidak mencukupi. Hubungi manajer untuk isi ulang.",
+    "13 马来语（Bahasa Melayu）":
+        "Baki elektrik tidak mencukupi. Sila hubungi pengurus untuk mengisi semula.",
     "": ""
   },
   {
     "1 简体中文": "冷水费余额不足，请联系公寓管理员及时充值",
-    "2 English": "Insufficient cold water balance, please contact the manager to recharge",
+    "2 English":
+        "Insufficient cold water balance, please contact the manager to recharge",
     "3 繁体中文": "冷水費餘額不足，請聯絡公寓管理員立即充值",
-    "4 西班牙语（Español）": "Saldo de agua fría insuficiente, comuníquese con el administrador para recargar",
-    "5 葡萄牙语（Português）": "Saldo insuficiente de água fria, contate o gerente para recarregar",
-    "6 法语（Français）": "Solde d'eau froide insuffisant, veuillez contacter le gestionnaire pour recharger",
-    "7 越南语（Tiếng Việt）": "Số dư nước lạnh không đủ, vui lòng liên hệ quản lý để nạp thêm",
-    "8 意大利语（Italiano）": "Saldo acqua fredda insufficiente, contattare il gestore per la ricarica",
-    "9 俄语（Русский）": "Недостаточный баланс холодной воды, обратитесь к менеджеру для пополнения",
-    "10 德语（Deutsch）": "Unzureichender Kaltwasser-Guthabenstand, bitte kontaktieren Sie den Verwalter zur Aufladung",
+    "4 西班牙语（Español）":
+        "Saldo de agua fría insuficiente, comuníquese con el administrador para recargar",
+    "5 葡萄牙语（Português）":
+        "Saldo insuficiente de água fria, contate o gerente para recarregar",
+    "6 法语（Français）":
+        "Solde d'eau froide insuffisant, veuillez contacter le gestionnaire pour recharger",
+    "7 越南语（Tiếng Việt）":
+        "Số dư nước lạnh không đủ, vui lòng liên hệ quản lý để nạp thêm",
+    "8 意大利语（Italiano）":
+        "Saldo acqua fredda insufficiente, contattare il gestore per la ricarica",
+    "9 俄语（Русский）":
+        "Недостаточный баланс холодной воды, обратитесь к менеджеру для пополнения",
+    "10 德语（Deutsch）":
+        "Unzureichender Kaltwasser-Guthabenstand, bitte kontaktieren Sie den Verwalter zur Aufladung",
     "11 泰语（ภาษาไทย）": "ยอดน้ำเย็นไม่เพียงพอ กรุณาติดต่อผู้จัดการเพื่อเติมเงิน",
-    "12 印度尼西亚语（Bahasa Indonesia）": "Saldo air dingin tidak mencukupi, hubungi manajer untuk isi ulang",
-    "13 马来语（Bahasa Melayu）": "Baki air sejuk tidak mencukupi, sila hubungi pengurus untuk isian semula",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Saldo air dingin tidak mencukupi, hubungi manajer untuk isi ulang",
+    "13 马来语（Bahasa Melayu）":
+        "Baki air sejuk tidak mencukupi, sila hubungi pengurus untuk isian semula",
     "": ""
   },
   {
     "1 简体中文": "热水费余额不足，请联系公寓管理员及时充值",
-    "2 English": "Insufficient hot water balance, please contact the admin to recharge",
+    "2 English":
+        "Insufficient hot water balance, please contact the admin to recharge",
     "3 繁体中文": "熱水費餘額不足，請聯繫公寓管理員及時充值",
-    "4 西班牙语（Español）": "Saldo de agua caliente insuficiente, comuníquese con el administrador para recargar",
-    "5 葡萄牙语（Português）": "Saldo de água quente insuficiente, contate o administrador para recarregar",
-    "6 法语（Français）": "Solde d'eau chaude insuffisant, veuillez contacter l'administrateur pour recharger",
-    "7 越南语（Tiếng Việt）": "Số dư nước nóng không đủ, vui lòng liên hệ quản trị viên để nạp tiền",
-    "8 意大利语（Italiano）": "Saldo acqua calda insufficiente, contattare l'amministratore per ricaricare",
-    "9 俄语（Русский）": "Недостаточный баланс горячей воды, обратитесь к администратору для пополнения",
-    "10 德语（Deutsch）": "Unzureichendes Warmwasser-Guthaben, bitte kontaktieren Sie den Administrator zur Aufladung",
+    "4 西班牙语（Español）":
+        "Saldo de agua caliente insuficiente, comuníquese con el administrador para recargar",
+    "5 葡萄牙语（Português）":
+        "Saldo de água quente insuficiente, contate o administrador para recarregar",
+    "6 法语（Français）":
+        "Solde d'eau chaude insuffisant, veuillez contacter l'administrateur pour recharger",
+    "7 越南语（Tiếng Việt）":
+        "Số dư nước nóng không đủ, vui lòng liên hệ quản trị viên để nạp tiền",
+    "8 意大利语（Italiano）":
+        "Saldo acqua calda insufficiente, contattare l'amministratore per ricaricare",
+    "9 俄语（Русский）":
+        "Недостаточный баланс горячей воды, обратитесь к администратору для пополнения",
+    "10 德语（Deutsch）":
+        "Unzureichendes Warmwasser-Guthaben, bitte kontaktieren Sie den Administrator zur Aufladung",
     "11 泰语（ภาษาไทย）": "ยอดน้ำร้อนไม่เพียงพอ กรุณาติดต่อผู้ดูแลเพื่อเติมเงิน",
-    "12 印度尼西亚语（Bahasa Indonesia）": "Saldo air panas tidak mencukupi, hubungi admin untuk isi ulang",
-    "13 马来语（Bahasa Melayu）": "Baki air panas tidak mencukupi, sila hubungi pentadbir untuk isian semula",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Saldo air panas tidak mencukupi, hubungi admin untuk isi ulang",
+    "13 马来语（Bahasa Melayu）":
+        "Baki air panas tidak mencukupi, sila hubungi pentadbir untuk isian semula",
     "": ""
   },
   {
@@ -691,6 +722,389 @@ List<Map<String, dynamic>> originalList_JoyStay = [
     "11 泰语（ภาษาไทย）": "การแจ้งเตือนการชำระเงิน",
     "12 印度尼西亚语（Bahasa Indonesia）": "Pengingat Pembayaran",
     "13 马来语（Bahasa Melayu）": "Peringatan Pembayaran",
+    "": ""
+  },
+  {
+    "1 简体中文": "在添加过程中，请将人脸正对锁的摄像头",
+    "2 English":
+        "During the process, please ensure the face is facing the lock's camera.",
+    "3 繁体中文": "在添加過程中，請將人臉正對鎖的攝像頭",
+    "4 西班牙语（Español）":
+        "Durante el proceso, asegúrese de que el rostro esté frente a la cámara del candado.",
+    "5 葡萄牙语（Português）":
+        "Durante o processo, alinhe o rosto com a câmera do trinco.",
+    "6 法语（Français）":
+        "Pendant l'ajout, alignez le visage avec la caméra du verrou.",
+    "7 越南语（Tiếng Việt）":
+        "Trong quá trình thêm, hãy hướng mặt vào camera của khóa.",
+    "8 意大利语（Italiano）":
+        "Durante il processo di aggiunta, assicurarsi che il viso sia rivolto verso la telecamera della serratura.",
+    "9 俄语（Русский）": "Во время добавления направьте лицо к камере замка",
+    "10 德语（Deutsch）":
+        "Während des Hinzufügens das Gesicht vor die Kamera des Schlosses halten.",
+    "11 泰语（ภาษาไทย）": "ระหว่างการเพิ่ม กรุณาหันหน้าตรงไปที่กล้องของล็อก",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Selama proses, pastikan wajah menghadap kamera kunci.",
+    "13 马来语（Bahasa Melayu）":
+        "Semasa penambahan, pastikan wajah menghadap kamera kunci.",
+    "": ""
+  },
+  {
+    "1 简体中文": "添加中",
+    "2 English": "Adding...",
+    "3 繁体中文": "正在新增",
+    "4 西班牙语（Español）": "Agregando...",
+    "5 葡萄牙语（Português）": "Add...",
+    "6 法语（Français）": "Ajout en cours",
+    "7 越南语（Tiếng Việt）": "Đang thêm...",
+    "8 意大利语（Italiano）": "Aggiungendo",
+    "9 俄语（Русский）": "Добавляется",
+    "10 德语（Deutsch）": "Hinzufügen...",
+    "11 泰语（ภาษาไทย）": "กำลังเพิ่ม...",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Menambah...",
+    "13 马来语（Bahasa Melayu）": "Tambah...",
+    "": ""
+  },
+  {
+    "1 简体中文": "添加人脸",
+    "2 English": "Add face",
+    "3 繁体中文": "添加人臉",
+    "4 西班牙语（Español）": "Agregar rostro",
+    "5 葡萄牙语（Português）": "Adicionar rosto",
+    "6 法语（Français）": "Ajouter un visage",
+    "7 越南语（Tiếng Việt）": "Thêm khuôn mặt",
+    "8 意大利语（Italiano）": "Aggiungi volto",
+    "9 俄语（Русский）": "Добавить лицо",
+    "10 德语（Deutsch）": "Gesicht hinzufügen",
+    "11 泰语（ภาษาไทย）": "เพิ่มใบหน้า",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Tambah Wajah",
+    "13 马来语（Bahasa Melayu）": "Tambah wajah",
+    "": ""
+  },
+  {
+    "1 简体中文": "未检测到人脸",
+    "2 English": "No face detected",
+    "3 繁体中文": "未檢測到人臉",
+    "4 西班牙语（Español）": "Sin rostro detectado",
+    "5 葡萄牙语（Português）": "Rosto não detectado",
+    "6 法语（Français）": "Visage non détecté",
+    "7 越南语（Tiếng Việt）": "Không phát hiện khuôn mặt",
+    "8 意大利语（Italiano）": "Nessun volto rilevato",
+    "9 俄语（Русский）": "Не обнаружено лицо",
+    "10 德语（Deutsch）": "Kein Gesicht erkannt",
+    "11 泰语（ภาษาไทย）": "ไม่พบใบหน้า",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Wajah tidak terdeteksi",
+    "13 马来语（Bahasa Melayu）": "Tiada muka dikesan",
+    "": ""
+  },
+  {
+    "1 简体中文": "人脸太靠上",
+    "2 English": "Too close to the top",
+    "3 繁体中文": "人臉太靠上",
+    "4 西班牙语（Español）": "Posición demasiado alta",
+    "5 葡萄牙语（Português）": "Muito perto do topo",
+    "6 法语（Français）": "Visage trop haut",
+    "7 越南语（Tiếng Việt）": "Khuôn mặt quá cao",
+    "8 意大利语（Italiano）": "Posizione troppo alta",
+    "9 俄语（Русский）": "Слишком близко к верху",
+    "10 德语（Deutsch）": "Zu nah am oberen Rand",
+    "11 泰语（ภาษาไทย）": "ใบหน้าอยู่สูงเกินไป",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Posisi wajah terlalu tinggi",
+    "13 马来语（Bahasa Melayu）": "Terlalu dekat dengan bahagian atas",
+    "": ""
+  },
+  {
+    "1 简体中文": "人脸太靠下",
+    "2 English": "Too close to the bottom",
+    "3 繁体中文": "人臉太靠下",
+    "4 西班牙语（Español）": "Posición facial demasiado baja",
+    "5 葡萄牙语（Português）": "Rosto muito baixo",
+    "6 法语（Français）": "Trop bas",
+    "7 越南语（Tiếng Việt）": "Quá gần dưới",
+    "8 意大利语（Italiano）": "Volto troppo basso",
+    "9 俄语（Русский）": "Низко",
+    "10 德语（Deutsch）": "Zu weit unten",
+    "11 泰语（ภาษาไทย）": "ใบหน้าอยู่ใกล้ด้านล่างเกินไป",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Wajah terlalu rendah",
+    "13 马来语（Bahasa Melayu）": "Terlalu dekat dengan bahagian bawah",
+    "": ""
+  },
+  {
+    "1 简体中文": "人脸太靠左",
+    "2 English": "Too close to the left",
+    "3 繁体中文": "人臉太靠左",
+    "4 西班牙语（Español）": "Demasiado a la izquierda",
+    "5 葡萄牙语（Português）": "Muito à esquerda",
+    "6 法语（Français）": "Trop à gauche",
+    "7 越南语（Tiếng Việt）": "Khuôn mặt quá gần bên trái",
+    "8 意大利语（Italiano）": "Viso troppo a sinistra",
+    "9 俄语（Русский）": "Слишком близко к левому краю",
+    "10 德语（Deutsch）": "Zu weit links",
+    "11 泰语（ภาษาไทย）": "ใบหน้าอยู่ซ้ายเกินไป",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Posisi wajah terlalu kiri",
+    "13 马来语（Bahasa Melayu）": "Posisi terlalu ke kiri",
+    "": ""
+  },
+  {
+    "1 简体中文": "人脸太靠右",
+    "2 English": "Too close to the right",
+    "3 繁体中文": "人臉太靠右",
+    "4 西班牙语（Español）": "Demasiado a la derecha",
+    "5 葡萄牙语（Português）": "Muito à direita",
+    "6 法语（Français）": "Trop proche à droite",
+    "7 越南语（Tiếng Việt）": "Quá gần bên phải",
+    "8 意大利语（Italiano）": "Viso troppo a destra",
+    "9 俄语（Русский）": "Справа слишком близко",
+    "10 德语（Deutsch）": "Zu weit rechts",
+    "11 泰语（ภาษาไทย）": "หน้าขวาเกินไป",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Wajah terlalu ke kanan",
+    "13 马来语（Bahasa Melayu）": "Wajah terlalu ke kanan",
+    "": ""
+  },
+  {
+    "1 简体中文": "人脸距离太远",
+    "2 English": "Too far away",
+    "3 繁体中文": "人臉距離太遠",
+    "4 西班牙语（Español）": "Demasiado lejos",
+    "5 葡萄牙语（Português）": "Muito longe",
+    "6 法语（Français）": "Trop éloigné",
+    "7 越南语（Tiếng Việt）": "Quá xa",
+    "8 意大利语（Italiano）": "Troppo distante",
+    "9 俄语（Русский）": "Слишком далеко",
+    "10 德语（Deutsch）": "Zu weit entfernt",
+    "11 泰语（ภาษาไทย）": "อยู่ไกลเกินไป",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Terlalu jauh",
+    "13 马来语（Bahasa Melayu）": "Wajah terlalu jauh",
+    "": ""
+  },
+  {
+    "1 简体中文": "人脸距离太近",
+    "2 English": "Too close",
+    "3 繁体中文": "人臉距離太近",
+    "4 西班牙语（Español）": "Demasiado cerca",
+    "5 葡萄牙语（Português）": "Muito perto",
+    "6 法语（Français）": "Trop proche",
+    "7 越南语（Tiếng Việt）": "Quá gần",
+    "8 意大利语（Italiano）": "Viso troppo vicino",
+    "9 俄语（Русский）": "Слишком близко",
+    "10 德语（Deutsch）": "Zu nah",
+    "11 泰语（ภาษาไทย）": "อยู่ใกล้เกินไป",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Terlalu dekat",
+    "13 马来语（Bahasa Melayu）": "Terlalu dekat",
+    "": ""
+  },
+  {
+    "1 简体中文": "眉毛被遮挡",
+    "2 English": "The eyebrows are covered",
+    "3 繁体中文": "眉毛被遮擋",
+    "4 西班牙语（Español）": "Cejas cubiertas",
+    "5 葡萄牙语（Português）": "Sobrancelhas cobertas",
+    "6 法语（Français）": "Sourcils masqués",
+    "7 越南语（Tiếng Việt）": "Lông mày bị che khuất",
+    "8 意大利语（Italiano）": "Sopracciglia coperte",
+    "9 俄语（Русский）": "Брови закрыты",
+    "10 德语（Deutsch）": "Augenbrauen verdeckt",
+    "11 泰语（ภาษาไทย）": "คิ้วถูกบล็อก",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Alis terhalang",
+    "13 马来语（Bahasa Melayu）": "Alis Terhalang",
+    "": ""
+  },
+  {
+    "1 简体中文": "眼睛被遮挡",
+    "2 English": "The eyes are covered",
+    "3 繁体中文": "眼睛被遮擋",
+    "4 西班牙语（Español）": "Ojos bloqueados",
+    "5 葡萄牙语（Português）": "Olhos cobertos",
+    "6 法语（Français）": "Yeux obstrués",
+    "7 越南语（Tiếng Việt）": "Mắt bị che",
+    "8 意大利语（Italiano）": "Gli occhi sono coperti",
+    "9 俄语（Русский）": "Глаза закрыты",
+    "10 德语（Deutsch）": "Augen verdeckt",
+    "11 泰语（ภาษาไทย）": "ดวงตาถูกบดบัง",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Mata Tertutup",
+    "13 马来语（Bahasa Melayu）": "Mata Tertutup",
+    "": ""
+  },
+  {
+    "1 简体中文": "脸部被遮挡",
+    "2 English": "The face is covered",
+    "3 繁体中文": "臉部被遮擋",
+    "4 西班牙语（Español）": "Rostro cubierto",
+    "5 葡萄牙语（Português）": "Face coberta",
+    "6 法语（Français）": "Visage couvert",
+    "7 越南语（Tiếng Việt）": "Khuôn mặt bị che",
+    "8 意大利语（Italiano）": "Viso coperto",
+    "9 俄语（Русский）": "Лицо закрыто",
+    "10 德语（Deutsch）": "Das Gesicht ist verdeckt",
+    "11 泰语（ภาษาไทย）": "ใบหน้าถูกบัง",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Wajah tertutup",
+    "13 马来语（Bahasa Melayu）": "Wajah tertutup",
+    "": ""
+  },
+  {
+    "1 简体中文": "录入人脸方向错误",
+    "2 English": "Wrong face direction",
+    "3 繁体中文": "錄入人臉方向錯誤",
+    "4 西班牙语（Español）": "Dirección facial incorrecta",
+    "5 葡萄牙语（Português）": "Direção facial errada",
+    "6 法语（Français）": "Orientation visage incorrecte",
+    "7 越南语（Tiếng Việt）": "Sai hướng khuôn mặt",
+    "8 意大利语（Italiano）": "Direzione viso errata",
+    "9 俄语（Русский）": "Неправильное направление лица",
+    "10 德语（Deutsch）": "Falsche Gesichtsrichtung",
+    "11 泰语（ภาษาไทย）": "ทิศทางใบหน้าผิดในการป้อนข้อมูล",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Orientasi wajah salah",
+    "13 马来语（Bahasa Melayu）": "Arah wajah salah",
+    "": ""
+  },
+  {
+    "1 简体中文": "闭眼模式检测到睁眼",
+    "2 English": "Eye opening detected",
+    "3 繁体中文": "閉眼模式檢測到睜眼",
+    "4 西班牙语（Español）": "Modo de ojos cerrados: Apertura detectada",
+    "5 葡萄牙语（Português）": "Olhos abertos detectados",
+    "6 法语（Français）": "Ouverture des yeux détectée",
+    "7 越南语（Tiếng Việt）": "Phát hiện mở mắt",
+    "8 意大利语（Italiano）": "Occhi aperti rilevati",
+    "9 俄语（Русский）": "Обнаружено открытие глаза",
+    "10 德语（Deutsch）": "Augenöffnung erkannt",
+    "11 泰语（ภาษาไทย）": "ตรวจพบการลืมตา",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Deteksi mata terbuka pada mode mata tertutup",
+    "13 马来语（Bahasa Melayu）": "Mod Kedipan: Mata Terbuka Dikesan",
+    "": ""
+  },
+  {
+    "1 简体中文": "闭眼状态",
+    "2 English": "Eyes closed status",
+    "3 繁体中文": "閉眼狀態",
+    "4 西班牙语（Español）": "Estado de ojos cerrados",
+    "5 葡萄牙语（Português）": "Estado de olhos fechados",
+    "6 法语（Français）": "État des yeux fermés",
+    "7 越南语（Tiếng Việt）": "Trạng thái mắt đóng",
+    "8 意大利语（Italiano）": "Stato occhi chiusi",
+    "9 俄语（Русский）": "Состояние закрытых глаз",
+    "10 德语（Deutsch）": "Augen geschlossen-Status",
+    "11 泰语（ภาษาไทย）": "สถานะปิดตา",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Status mata tertutup",
+    "13 马来语（Bahasa Melayu）": "Status mata tertutup",
+    "": ""
+  },
+  {
+    "1 简体中文": "在闭眼模式检测中，无法检测到睁闭眼状态",
+    "2 English": "Failed to detect eye's open and close status",
+    "3 繁体中文": "在閉眼模式檢測中，無法檢測到睜閉眼狀態",
+    "4 西班牙语（Español）":
+        "Fallo en la detección del estado de los ojos en modo cerrado",
+    "5 葡萄牙语（Português）": "",
+    "6 法语（Français）": "Impossible de détecter l'état des paupières",
+    "7 越南语（Tiếng Việt）":
+        "Không thể phát hiện trạng thái mở/đóng mắt trong chế độ phát hiện nhắm mắt",
+    "8 意大利语（Italiano）":
+        "Rilevamento occhi chiusi: stato di apertura/chiusura non rilevabile",
+    "9 俄语（Русский）": "Не удалось обнаружить состояние открытия и закрытия глаз",
+    "10 德语（Deutsch）":
+        "Erkennung des Augenstatus (offen/geschlossen) fehlgeschlagen",
+    "11 泰语（ภาษาไทย）": "ไม่สามารถตรวจจับสถานะการเปิด-ปิดได้",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Dalam deteksi mode mata tertutup, gagal mendeteksi status mata terbuka dan tertutup.",
+    "13 马来语（Bahasa Melayu）": "Gagal mengesan status buka/tutup mata",
+    "": ""
+  },
+  {
+    "1 简体中文": "请左转头",
+    "2 English": "Turn your head to the left",
+    "3 繁体中文": "請左轉頭",
+    "4 西班牙语（Español）": "Gire a la izquierda",
+    "5 葡萄牙语（Português）": "Vire a cabeça para a esquerda",
+    "6 法语（Français）": "Tournez la tête à gauche",
+    "7 越南语（Tiếng Việt）": "Vui lòng quay đầu sang trái",
+    "8 意大利语（Italiano）": "Gira la testa a sinistra",
+    "9 俄语（Русский）": "Поверните голову влево",
+    "10 德语（Deutsch）": "Drehen Sie Ihren Kopf nach links",
+    "11 泰语（ภาษาไทย）": "โปรดหันศีรษะไปทางซ้าย",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Putar kepala ke kiri",
+    "13 马来语（Bahasa Melayu）": "Kepala ke kiri",
+    "": ""
+  },
+  {
+    "1 简体中文": "请右转头",
+    "2 English": "Turn your head to the right",
+    "3 繁体中文": "請右轉頭",
+    "4 西班牙语（Español）": "Gire la cabeza a la derecha",
+    "5 葡萄牙语（Português）": "Vire à direita",
+    "6 法语（Français）": "Tournez la tête à droite",
+    "7 越南语（Tiếng Việt）": "Quay đầu sang phải",
+    "8 意大利语（Italiano）": "Gira testa dx",
+    "9 俄语（Русский）": "Поверните голову вправо",
+    "10 德语（Deutsch）": "Kopf nach rechts drehen",
+    "11 泰语（ภาษาไทย）": "โปรดหมุนศีรษะไปทางขวา",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Putar kepala ke kanan",
+    "13 马来语（Bahasa Melayu）": "Pusingkan kepala ke kanan",
+    "": ""
+  },
+  {
+    "1 简体中文": "请抬头",
+    "2 English": "Raise your head",
+    "3 繁体中文": "請抬頭",
+    "4 西班牙语（Español）": "Alce la cabeza",
+    "5 葡萄牙语（Português）": "Alte a cabeça",
+    "6 法语（Français）": "Levez la tête",
+    "7 越南语（Tiếng Việt）": "Nâng đầu lên",
+    "8 意大利语（Italiano）": "Alza testa",
+    "9 俄语（Русский）": "Поднимите голову",
+    "10 德语（Deutsch）": "Kopf heben",
+    "11 泰语（ภาษาไทย）": "เงยหน้าขึ้น",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Arahkan kepala ke atas",
+    "13 马来语（Bahasa Melayu）": "Angkat kepala",
+    "": ""
+  },
+  {
+    "1 简体中文": "请低头",
+    "2 English": "Lower your head",
+    "3 繁体中文": "請低頭",
+    "4 西班牙语（Español）": "Baje la cabeza",
+    "5 葡萄牙语（Português）": "Baixe a cabeça",
+    "6 法语（Français）": "Abaissez la tête",
+    "7 越南语（Tiếng Việt）": "Hạ thấp đầu",
+    "8 意大利语（Italiano）": "Abbassa la testa",
+    "9 俄语（Русский）": "Наклоните голову вниз",
+    "10 德语（Deutsch）": "Senken Sie Ihren Kopf",
+    "11 泰语（ภาษาไทย）": "โปรด低头ลง",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Turunkan kepala",
+    "13 马来语（Bahasa Melayu）": "Tunduk",
+    "": ""
+  },
+  {
+    "1 简体中文": "请向左歪头",
+    "2 English": "Tilt your head to the left",
+    "3 繁体中文": "請向左歪頭",
+    "4 西班牙语（Español）": "Incline su cabeza hacia la izquierda",
+    "5 葡萄牙语（Português）": "Incline a cabeça à esquerda",
+    "6 法语（Français）": "Penchez la tête à gauche",
+    "7 越南语（Tiếng Việt）": "Hãy nghiêng đầu sang trái",
+    "8 意大利语（Italiano）": "Tilta la testa a sinistra",
+    "9 俄语（Русский）": "Наклоните голову влево",
+    "10 德语（Deutsch）": "Neigen Sie Ihren Kopf nach links.",
+    "11 泰语（ภาษาไทย）": "กรุณาเอียงหัวซ้าย",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Miringkan kepala ke kiri",
+    "13 马来语（Bahasa Melayu）": "Condongkan kepala ke kiri",
+    "": ""
+  },
+  {
+    "1 简体中文": "请向右歪头",
+    "2 English": "Tilt your head to the right",
+    "3 繁体中文": "請向右歪頭",
+    "4 西班牙语（Español）": "Inclina tu cabeza a la derecha",
+    "5 葡萄牙语（Português）": "Incline sua cabeça para a direita.",
+    "6 法语（Français）": "Penchez la tête à droite",
+    "7 越南语（Tiếng Việt）": "Nghiêng đầu sang phải",
+    "8 意大利语（Italiano）": "Inclina testa Dx",
+    "9 俄语（Русский）": "Наклоните голову вправо",
+    "10 德语（Deutsch）": "Kopf rechts neigen",
+    "11 泰语（ภาษาไทย）": "โปรดเอียงหัวไปทางขวา",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Miringkan kepala Anda ke kanan",
+    "13 马来语（Bahasa Melayu）": "Condongkan kepala ke kanan",
     "": ""
   }
 ];

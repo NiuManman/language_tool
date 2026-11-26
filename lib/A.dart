@@ -145,82 +145,130 @@ List<Map<String, dynamic>> originalList = [
   },
   {
     "1 简体中文": "用水记录将按校准后数值做为起始值重新计费",
-    "2 English": "Water usage records will be re-billed starting from the calibrated value",
+    "2 English":
+        "Water usage records will be re-billed starting from the calibrated value",
     "3 繁体中文": "用水記錄將依校準後數值作為起始值重新計費",
-    "4 西班牙语（Español）": "Los registros de consumo de agua se volverán a facturar a partir del valor calibrado",
-    "5 葡萄牙语（Português）": "Registros de consumo de água serão cobrados novamente a partir do valor calibrado",
-    "6 法语（Français）": "Les relevés de consommation d'eau seront facturés à nouveau à partir de la valeur étalonnée",
-    "7 越南语（Tiếng Việt）": "Lịch sử sử dụng nước sẽ được tính lại từ giá trị đã hiệu chuẩn",
-    "8 意大利语（Italiano）": "I consumi d'acqua verranno ricalcolati a partire dal valore calibrato",
-    "9 俄语（Русский）": "Показания водоснабжения будут пересчитаны, начиная с откалиброванного значения",
-    "10 德语（Deutsch）": "Wasserverbrauchsdaten werden ab dem kalibrierten Wert neu abgerechnet",
-    "11 泰语（ภาษาไทย）": "บันทึกการใช้น้ำจะถูกเรียกเก็บใหม่เริ่มจากค่าที่ปรับเทียบแล้ว",
-    "12 印度尼西亚语（Bahasa Indonesia）": "Catatan penggunaan air akan ditagih ulang mulai dari nilai kalibrasi",
-    "13 马来语（Bahasa Melayu）": "Rekod penggunaan air akan ditagih semula bermula daripada nilai kalibrasi",
+    "4 西班牙语（Español）":
+        "Los registros de consumo de agua se volverán a facturar a partir del valor calibrado",
+    "5 葡萄牙语（Português）":
+        "Registros de consumo de água serão cobrados novamente a partir do valor calibrado",
+    "6 法语（Français）":
+        "Les relevés de consommation d'eau seront facturés à nouveau à partir de la valeur étalonnée",
+    "7 越南语（Tiếng Việt）":
+        "Lịch sử sử dụng nước sẽ được tính lại từ giá trị đã hiệu chuẩn",
+    "8 意大利语（Italiano）":
+        "I consumi d'acqua verranno ricalcolati a partire dal valore calibrato",
+    "9 俄语（Русский）":
+        "Показания водоснабжения будут пересчитаны, начиная с откалиброванного значения",
+    "10 德语（Deutsch）":
+        "Wasserverbrauchsdaten werden ab dem kalibrierten Wert neu abgerechnet",
+    "11 泰语（ภาษาไทย）":
+        "บันทึกการใช้น้ำจะถูกเรียกเก็บใหม่เริ่มจากค่าที่ปรับเทียบแล้ว",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Catatan penggunaan air akan ditagih ulang mulai dari nilai kalibrasi",
+    "13 马来语（Bahasa Melayu）":
+        "Rekod penggunaan air akan ditagih semula bermula daripada nilai kalibrasi",
     "": ""
   },
   {
     "1 简体中文": "电表已经关联了房间，请先解除关联后再操作",
-    "2 English": "Meter is already associated to a room. Unassociate it first before proceeding.",
+    "2 English":
+        "Meter is already associated to a room. Unassociate it first before proceeding.",
     "3 繁体中文": "電表已關聯房間，請先解除關聯再操作",
-    "4 西班牙语（Español）": "El medidor ya está asociado a una habitación. Desasócielo primero antes de continuar.",
-    "5 葡萄牙语（Português）": "O medidor já está associado a um quarto. Desassocie-o primeiro antes de prosseguir.",
-    "6 法语（Français）": "Le compteur est déjà associé à une pièce. Dissociez-le d'abord avant de continuer.",
-    "7 越南语（Tiếng Việt）": "Đồng hồ đã được liên kết với phòng. Hãy ngắt liên kết trước khi tiếp tục.",
-    "8 意大利语（Italiano）": "Il contatore è già associato a una stanza. Dissocialo prima di procedere.",
-    "9 俄语（Русский）": "Счетчик уже привязан к комнате. Перед продолжением отвяжите его.",
-    "10 德语（Deutsch）": "Zähler ist bereits einem Raum zugeordnet. Zuerst aufheben, bevor fortgesetzt wird.",
-    "11 泰语（ภาษาไทย）": "มิเตอร์ถูกผูกกับห้องแล้ว กรุณายกเลิกการผูกก่อนดำเนินการต่อ",
-    "12 印度尼西亚语（Bahasa Indonesia）": "Meter sudah terhubung ke kamar. Lepaskan terlebih dahulu sebelum melanjutkan.",
-    "13 马来语（Bahasa Melayu）": "Meter telah dikaitkan dengan bilik. Nyahkaitkan dahulu sebelum meneruskan.",
+    "4 西班牙语（Español）":
+        "El medidor ya está asociado a una habitación. Desasócielo primero antes de continuar.",
+    "5 葡萄牙语（Português）":
+        "O medidor já está associado a um quarto. Desassocie-o primeiro antes de prosseguir.",
+    "6 法语（Français）":
+        "Le compteur est déjà associé à une pièce. Dissociez-le d'abord avant de continuer.",
+    "7 越南语（Tiếng Việt）":
+        "Đồng hồ đã được liên kết với phòng. Hãy ngắt liên kết trước khi tiếp tục.",
+    "8 意大利语（Italiano）":
+        "Il contatore è già associato a una stanza. Dissocialo prima di procedere.",
+    "9 俄语（Русский）":
+        "Счетчик уже привязан к комнате. Перед продолжением отвяжите его.",
+    "10 德语（Deutsch）":
+        "Zähler ist bereits einem Raum zugeordnet. Zuerst aufheben, bevor fortgesetzt wird.",
+    "11 泰语（ภาษาไทย）":
+        "มิเตอร์ถูกผูกกับห้องแล้ว กรุณายกเลิกการผูกก่อนดำเนินการต่อ",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Meter sudah terhubung ke kamar. Lepaskan terlebih dahulu sebelum melanjutkan.",
+    "13 马来语（Bahasa Melayu）":
+        "Meter telah dikaitkan dengan bilik. Nyahkaitkan dahulu sebelum meneruskan.",
     "": ""
   },
   {
     "1 简体中文": "水表已经关联了房间，请先解除关联后再操作",
-    "2 English": "Water meter is already associated to a room. Please unassociate it first before proceeding.",
+    "2 English":
+        "Water meter is already associated to a room. Please unassociate it first before proceeding.",
     "3 繁体中文": "水表已關聯房間，請先解除關聯後再操作",
-    "4 西班牙语（Español）": "El medidor de agua ya está asociado a una habitación. Desasócielo primero antes de continuar.",
-    "5 葡萄牙语（Português）": "O hidrômetro já está associado a um quarto. Desassocie-o primeiro antes de prosseguir.",
-    "6 法语（Français）": "Le compteur d'eau est déjà associé à une pièce. Veuillez d'abord le dissocier avant de continuer.",
-    "7 越南语（Tiếng Việt）": "Đồng hồ nước đã được liên kết với phòng. Vui lòng hủy liên kết trước khi tiếp tục.",
-    "8 意大利语（Italiano）": "Il contatore dell'acqua è già associato a una stanza. Dissocialo prima di procedere.",
-    "9 俄语（Русский）": "Счетчик воды уже привязан к комнате. Отвяжите его перед продолжением.",
-    "10 德语（Deutsch）": "Zähler ist bereits einem Raum zugeordnet. Bitte zuerst trennen, bevor fortgefahren wird.",
-    "11 泰语（ภาษาไทย）": "มิเตอร์น้ำถูกลงทะเบียนกับห้องแล้ว กรุณาปลดการเชื่อมต่อก่อนดำเนินการต่อ",
-    "12 印度尼西亚语（Bahasa Indonesia）": "Meter air sudah terhubung ke kamar. Harap lepaskan terlebih dahulu sebelum melanjutkan.",
-    "13 马来语（Bahasa Melayu）": "Meter air sudah dikaitkan dengan bilik. Sila batalkan kaitan terlebih dahulu sebelum meneruskan.",
+    "4 西班牙语（Español）":
+        "El medidor de agua ya está asociado a una habitación. Desasócielo primero antes de continuar.",
+    "5 葡萄牙语（Português）":
+        "O hidrômetro já está associado a um quarto. Desassocie-o primeiro antes de prosseguir.",
+    "6 法语（Français）":
+        "Le compteur d'eau est déjà associé à une pièce. Veuillez d'abord le dissocier avant de continuer.",
+    "7 越南语（Tiếng Việt）":
+        "Đồng hồ nước đã được liên kết với phòng. Vui lòng hủy liên kết trước khi tiếp tục.",
+    "8 意大利语（Italiano）":
+        "Il contatore dell'acqua è già associato a una stanza. Dissocialo prima di procedere.",
+    "9 俄语（Русский）":
+        "Счетчик воды уже привязан к комнате. Отвяжите его перед продолжением.",
+    "10 德语（Deutsch）":
+        "Zähler ist bereits einem Raum zugeordnet. Bitte zuerst trennen, bevor fortgefahren wird.",
+    "11 泰语（ภาษาไทย）":
+        "มิเตอร์น้ำถูกลงทะเบียนกับห้องแล้ว กรุณาปลดการเชื่อมต่อก่อนดำเนินการต่อ",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Meter air sudah terhubung ke kamar. Harap lepaskan terlebih dahulu sebelum melanjutkan.",
+    "13 马来语（Bahasa Melayu）":
+        "Meter air sudah dikaitkan dengan bilik. Sila batalkan kaitan terlebih dahulu sebelum meneruskan.",
     "": ""
   },
   {
     "1 简体中文": "将在下个结算日：按户分摊",
     "2 English": "Will be allocated on next billing date: by room",
     "3 繁体中文": "下期結算日：依戶分攤",
-    "4 西班牙语（Español）": "Se asignará en la próxima fecha de facturación: por habitación",
+    "4 西班牙语（Español）":
+        "Se asignará en la próxima fecha de facturación: por habitación",
     "5 葡萄牙语（Português）": "Será alocado na próxima data de cobrança: por quarto",
-    "6 法语（Français）": "Seront attribués à la prochaine date de facturation : par chambre",
-    "7 越南语（Tiếng Việt）": "Sẽ được phân bổ vào ngày thanh toán tiếp theo: theo phòng",
-    "8 意大利语（Italiano）": "Sarà allocato alla prossima data di fatturazione: per stanza",
-    "9 俄语（Русский）": "Будет списано в следующую дату выставления счета: по комнатам",
+    "6 法语（Français）":
+        "Seront attribués à la prochaine date de facturation : par chambre",
+    "7 越南语（Tiếng Việt）":
+        "Sẽ được phân bổ vào ngày thanh toán tiếp theo: theo phòng",
+    "8 意大利语（Italiano）":
+        "Sarà allocato alla prossima data di fatturazione: per stanza",
+    "9 俄语（Русский）":
+        "Будет списано в следующую дату выставления счета: по комнатам",
     "10 德语（Deutsch）": "Wird beim nächsten Abrechnungsdatum pro Raum zugewiesen",
     "11 泰语（ภาษาไทย）": "จะจัดสรรในวันเรียกเก็บเงินครั้งถัดไป: ตามห้อง",
-    "12 印度尼西亚语（Bahasa Indonesia）": "Akan dialokasikan pada tanggal penagihan berikutnya: per kamar",
-    "13 马来语（Bahasa Melayu）": "Akan diperuntukkan pada tarikh pengebilan seterusnya: mengikut bilik",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Akan dialokasikan pada tanggal penagihan berikutnya: per kamar",
+    "13 马来语（Bahasa Melayu）":
+        "Akan diperuntukkan pada tarikh pengebilan seterusnya: mengikut bilik",
     "": ""
   },
   {
     "1 简体中文": "将在下个结算日：按人分摊",
     "2 English": "Will be allocated on next billing date: by person",
     "3 繁体中文": "下個結算日：按人分攤",
-    "4 西班牙语（Español）": "Se asignará en la próxima fecha de facturación: por persona",
+    "4 西班牙语（Español）":
+        "Se asignará en la próxima fecha de facturación: por persona",
     "5 葡萄牙语（Português）": "Será alocado na próxima data de cobrança: por pessoa",
-    "6 法语（Français）": "Seront attribués à la prochaine date de facturation : par personne",
-    "7 越南语（Tiếng Việt）": "Sẽ được phân bổ vào ngày thanh toán tiếp theo: theo người",
-    "8 意大利语（Italiano）": "Sarà allocato alla prossima data di fatturazione: per persona",
-    "9 俄语（Русский）": "Будет списано в следующую дату выставления счета: за человека",
-    "10 德语（Deutsch）": "Wird am nächsten Abrechnungsdatum zugewiesen: pro Person",
+    "6 法语（Français）":
+        "Seront attribués à la prochaine date de facturation : par personne",
+    "7 越南语（Tiếng Việt）":
+        "Sẽ được phân bổ vào ngày thanh toán tiếp theo: theo người",
+    "8 意大利语（Italiano）":
+        "Sarà allocato alla prossima data di fatturazione: per persona",
+    "9 俄语（Русский）":
+        "Будет списано в следующую дату выставления счета: за человека",
+    "10 德语（Deutsch）":
+        "Wird am nächsten Abrechnungsdatum zugewiesen: pro Person",
     "11 泰语（ภาษาไทย）": "จะถูกจัดสรรในวันเรียกเก็บเงินครั้งถัดไป: ต่อคน",
-    "12 印度尼西亚语（Bahasa Indonesia）": "Akan dialokasikan pada tanggal penagihan berikutnya: per orang",
-    "13 马来语（Bahasa Melayu）": "Akan diperuntukkan pada tarikh pengebilan seterusnya: mengikut orang",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Akan dialokasikan pada tanggal penagihan berikutnya: per orang",
+    "13 马来语（Bahasa Melayu）":
+        "Akan diperuntukkan pada tarikh pengebilan seterusnya: mengikut orang",
     "": ""
   },
   {
@@ -235,7 +283,8 @@ List<Map<String, dynamic>> originalList = [
     "9 俄语（Русский）": "Будет выделено через 1 час: по комнатам",
     "10 德语（Deutsch）": "Wird in 1 Stunde zugewiesen: nach Raum",
     "11 泰语（ภาษาไทย）": "จะจัดสรรภายใน 1 ชั่วโมง: โดยห้อง",
-    "12 印度尼西亚语（Bahasa Indonesia）": "Akan dialokasikan dalam 1 jam: berdasarkan kamar",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Akan dialokasikan dalam 1 jam: berdasarkan kamar",
     "13 马来语（Bahasa Melayu）": "Akan diperuntukkan dalam 1 jam: mengikut bilik",
     "": ""
   },
@@ -254,7 +303,1380 @@ List<Map<String, dynamic>> originalList = [
     "12 印度尼西亚语（Bahasa Indonesia）": "Akan dialokasikan dalam 1 jam: oleh orang",
     "13 马来语（Bahasa Melayu）": "Akan diperuntukkan dalam 1 jam: oleh individu",
     "": ""
+  },
+  {
+    "1 简体中文": "为了租客的安全与隐私，入住期间禁止开启房门。如有紧急情况，可向管理员申请开锁密码。",
+    "2 English":
+        "For tenant safety and privacy, do not unlock the door during occupancy. In emergencies, request an unlock code from the admin.",
+    "3 繁体中文": "為保障住戶安全與隱私，入住期間禁止開啟房門。如遇緊急狀況，可向管理員申請解鎖密碼。",
+    "4 西班牙语（Español）":
+        "Por seguridad y privacidad del inquilino, no desbloquee la puerta durante la ocupación. En emergencias, solicite un código de desbloqueo al administrador.",
+    "5 葡萄牙语（Português）":
+        "Para segurança e privacidade do inquilino, não destrave a porta durante a ocupação. Em emergências, solicite um código de destravamento ao administrador.",
+    "6 法语（Français）":
+        "Pour la sécurité et la confidentialité des locataires, ne déverrouillez pas la porte pendant l'occupation. En cas d'urgence, demandez un code de déverrouillage à l'administrateur.",
+    "7 越南语（Tiếng Việt）":
+        "Để đảm bảo an toàn và quyền riêng tư cho người thuê, không mở cửa khi đang sử dụng. Trong trường hợp khẩn cấp, yêu cầu mã mở cửa từ quản trị viên.",
+    "8 意大利语（Italiano）":
+        "Per la sicurezza e privacy degli inquilini, non aprire la porta durante l'occupazione. In caso di emergenza, richiedi un codice di sblocco all'amministratore.",
+    "9 俄语（Русский）":
+        "Для безопасности и конфиденциальности жильцов не открывайте дверь во время проживания. В чрезвычайных ситуациях запросите код разблокировки у администратора.",
+    "10 德语（Deutsch）":
+        "Zur Sicherheit und Privatsphäre der Mieter Tür während der Belegung nicht entriegeln. Im Notfall Entsperrcode beim Administrator anfordern.",
+    "11 泰语（ภาษาไทย）":
+        "เพื่อความปลอดภัยและความเป็นส่วนตัวของผู้เช่า อย่าปลดล็อกประตูขณะมีผู้พักอาศัย หากเกิดเหตุฉุกเฉิน ให้ขอรหัสปลดล็อกจากผู้ดูแลระบบ",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Untuk keselamatan dan privasi penghuni, jangan membuka kunci pintu saat ada penghuni. Dalam keadaan darurat, minta kode buka dari admin.",
+    "13 马来语（Bahasa Melayu）":
+        "Untuk keselamatan dan privasi penyewa, jangan buka pintu semasa pendudukan. Dalam kecemasan, minta kod buka dari pentadbir.",
+    "": ""
+  },
+  {
+    "1 简体中文": "该房间已入住，为保护个人的安全与隐私，租客入住期间请勿开启房门。",
+    "2 English":
+        "Room occupied. For tenant's safety and privacy, do not open door during stay.",
+    "3 繁体中文": "該房間已入住，為保護住客安全與隱私，請勿於入住期間開啟房門。",
+    "4 西班牙语（Español）":
+        "Habitación ocupada. Por seguridad y privacidad del inquilino, no abrir la puerta durante la estancia.",
+    "5 葡萄牙语（Português）":
+        "Quarto ocupado. Por segurança e privacidade do inquilino, não abra a porta durante a estadia.",
+    "6 法语（Français）":
+        "Chambre occupée. Pour la sécurité et la vie privée du locataire, ne pas ouvrir la porte pendant le séjour.",
+    "7 越南语（Tiếng Việt）":
+        "Phòng đang có người ở. Để đảm bảo an toàn và riêng tư cho khách thuê, không mở cửa trong thời gian lưu trú.",
+    "8 意大利语（Italiano）":
+        "Stanza occupata. Per la sicurezza e privacy dell'inquilino, non aprire la porta durante il soggiorno.",
+    "9 俄语（Русский）":
+        "Комната занята. В целях безопасности и конфиденциальности жильца не открывайте дверь во время проживания.",
+    "10 德语（Deutsch）":
+        "Zimmer belegt. Aus Sicherheits- und Datenschutzgründen Tür während des Aufenthalts nicht öffnen.",
+    "11 泰语（ภาษาไทย）":
+        "ห้องถูกใช้งานอยู่ เพื่อความปลอดภัยและเป็นส่วนตัวของผู้เช่า ห้ามเปิดประตูระหว่างการพักอาศัย",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Kamar terisi. Untuk keamanan dan privasi penghuni, jangan buka pintu selama masa inap.",
+    "13 马来语（Bahasa Melayu）":
+        "Bilik diduduki. Untuk keselamatan dan privasi penyewa, jangan buka pintu semasa penginapan.",
+    "": ""
+  },
+  {
+    "1 简体中文": "电表版本未知",
+    "2 English": "Unknown meter version",
+    "3 繁体中文": "電錶版本未知",
+    "4 西班牙语（Español）": "Versión del medidor desconocida",
+    "5 葡萄牙语（Português）": "Versão do medidor desconhecida",
+    "6 法语（Français）": "Version du compteur inconnue",
+    "7 越南语（Tiếng Việt）": "Phiên bản đồng hồ không xác định",
+    "8 意大利语（Italiano）": "Versione del contatore sconosciuta",
+    "9 俄语（Русский）": "Неизвестная версия счетчика",
+    "10 德语（Deutsch）": "Unbekannte Zählerversion",
+    "11 泰语（ภาษาไทย）": "เวอร์ชันมิเตอร์ไม่รู้จัก",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Versi meter tidak diketahui",
+    "13 马来语（Bahasa Melayu）": "Versi meter tidak diketahui",
+    "": ""
+  },
+  {
+    "1 简体中文": "水表版本未知",
+    "2 English": "Unknown meter version",
+    "3 繁体中文": "水表版本未知",
+    "4 西班牙语（Español）": "Versión del medidor desconocida",
+    "5 葡萄牙语（Português）": "Versão do medidor desconhecida",
+    "6 法语（Français）": "Version du compteur inconnue",
+    "7 越南语（Tiếng Việt）": "Phiên bản công tơ không xác định",
+    "8 意大利语（Italiano）": "Versione metro sconosciuta",
+    "9 俄语（Русский）": "Неизвестная версия счетчика",
+    "10 德语（Deutsch）": "Unbekannte Zähler-Version",
+    "11 泰语（ภาษาไทย）": "เวอร์ชันมิเตอร์ไม่รู้จัก",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Versi meter tidak diketahui",
+    "13 马来语（Bahasa Melayu）": "Versi meter tidak diketahui",
+    "": ""
+  },
+  {
+    "1 简体中文": "无电子钥匙，请联系管理员授权",
+    "2 English": "No ekey, please contact admin for authorization",
+    "3 繁体中文": "無電子鑰匙，請聯絡管理員授權",
+    "4 西班牙语（Español）": "Sin ekey, contacte al administrador para autorización",
+    "5 葡萄牙语（Português）": "Sem ekey, contate o administrador para autorização",
+    "6 法语（Français）":
+        "Pas de clé électronique, veuillez contacter l'administrateur pour autorisation",
+    "7 越南语（Tiếng Việt）":
+        "Không có ekey, vui lòng liên hệ quản trị viên để được cấp quyền",
+    "8 意大利语（Italiano）":
+        "Nessuna ekey, contattare l'amministratore per l'autorizzazione",
+    "9 俄语（Русский）":
+        "Нет электронного ключа, обратитесь к администратору для авторизации",
+    "10 德语（Deutsch）":
+        "Kein E-Key, wenden Sie sich an den Administrator zur Autorisierung",
+    "11 泰语（ภาษาไทย）": "ไม่มี ekey กรุณาติดต่อผู้ดูแลเพื่ออนุมัติสิทธิ์",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Tidak ada ekey, hubungi admin untuk otorisasi",
+    "13 马来语（Bahasa Melayu）":
+        "Tiada ekey, sila hubungi pentadbir untuk pengesahan",
+    "": ""
+  },
+  {
+    "1 简体中文": "已断电",
+    "2 English": "Powered off",
+    "3 繁体中文": "已斷電",
+    "4 西班牙语（Español）": "Apagado",
+    "5 葡萄牙语（Português）": "Desligado",
+    "6 法语（Français）": "Hors tension",
+    "7 越南语（Tiếng Việt）": "Đã tắt nguồn",
+    "8 意大利语（Italiano）": "Spento",
+    "9 俄语（Русский）": "Выключено",
+    "10 德语（Deutsch）": "Ausgeschaltet",
+    "11 泰语（ภาษาไทย）": "ปิดแล้ว",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Nonaktif",
+    "13 马来语（Bahasa Melayu）": "Padam",
+    "": ""
+  },
+  {
+    "1 简体中文": "已断水",
+    "2 English": "Water Cut Off",
+    "3 繁体中文": "已斷水",
+    "4 西班牙语（Español）": "Corte de Agua",
+    "5 葡萄牙语（Português）": "Corte de Água",
+    "6 法语（Français）": "Arrêt d'eau",
+    "7 越南语（Tiếng Việt）": "Ngắt nước",
+    "8 意大利语（Italiano）": "Interruzione acqua",
+    "9 俄语（Русский）": "Откл. воды",
+    "10 德语（Deutsch）": "Wasserversorgung abgeschaltet",
+    "11 泰语（ภาษาไทย）": "ตัดน้ำ",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Pemutusan Air",
+    "13 马来语（Bahasa Melayu）": "Pemotongan Air",
+    "": ""
+  },
+  {
+    "1 简体中文": "授予入住人可通过【JoyStay】App自助添加人脸，授予期限与电子钥匙期限一致。",
+    "2 English":
+        "Grant tenants to add faces via the JoyStay app. The validity period will be the same as the ekey.",
+    "3 繁体中文": "授予入住人可透過【JoyStay】App自助新增人臉，授予期限與電子鑰匙期限相同。",
+    "4 西班牙语（Español）":
+        "Permitir a los inquilinos agregar rostros mediante la app JoyStay. El período de validez será el mismo que la ekey.",
+    "5 葡萄牙语（Português）":
+        "Conceder aos inquilinos adicionar rostos pelo app JoyStay. O período de validade será o mesmo da ekey.",
+    "6 法语（Français）":
+        "Accorder aux locataires l'ajout de visages via l'app JoyStay. La période de validité sera identique à celle de la clé électronique.",
+    "7 越南语（Tiếng Việt）":
+        "Cho phép người thuê thêm khuôn mặt qua ứng dụng JoyStay. Thời hạn hiệu lực sẽ giống như ekey.",
+    "8 意大利语（Italiano）":
+        "Consenti ai tenant di aggiungere volti tramite l'app JoyStay. Il periodo di validità sarà lo stesso della ekey.",
+    "9 俄语（Русский）":
+        "Предоставить арендаторам возможность добавлять лица через приложение JoyStay. Срок действия будет совпадать со сроком действия электронного ключа.",
+    "10 德语（Deutsch）":
+        "Mieter dürfen über die JoyStay-App Gesichter hinzufügen. Die Gültigkeitsdauer entspricht der des E-Keys.",
+    "11 泰语（ภาษาไทย）":
+        "อนุญาตให้ผู้เช่าเพิ่มใบหน้าผ่านแอป JoyStay ระยะเวลาการใช้งานจะเท่ากับ ekey",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Izinkan penyewa menambahkan wajah melalui aplikasi JoyStay. Masa berlaku akan sama dengan ekey.",
+    "13 马来语（Bahasa Melayu）":
+        "Benarkan penyewa tambah muka melalui app JoyStay. Tempoh sah sama seperti ekey.",
+    "": ""
+  },
+  {
+    "1 简体中文": "授予添加人脸",
+    "2 English": "Grant Add Face",
+    "3 繁体中文": "授予新增人臉權限",
+    "4 西班牙语（Español）": "Conceder agregar rostro",
+    "5 葡萄牙语（Português）": "Conceder Adicionar Rosto",
+    "6 法语（Français）": "Accorder ajout visage",
+    "7 越南语（Tiếng Việt）": "Cấp quyền Thêm khuôn mặt",
+    "8 意大利语（Italiano）": "Concedi aggiunta volto",
+    "9 俄语（Русский）": "Добавить лицо",
+    "10 德语（Deutsch）": "Zugriff hinzufügen Gesicht",
+    "11 泰语（ภาษาไทย）": "อนุญาตเพิ่มใบหน้า",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Izinkan Tambah Wajah",
+    "13 马来语（Bahasa Melayu）": "Benarkan Tambah Muka",
+    "": ""
+  },
+  {
+    "1 简体中文": "（注：员工可以在房间的开门权限功能中给租客授权和删除开门权限，无权查看租客的密码、卡、和指纹、人脸更能保护租客隐私安全）",
+    "2 English":
+        "(Note: Staff can authorize or revoke tenant's room access rights, but cannot view tenant's passwords, cards, fingerprints, or facial data, better protecting tenant privacy and security)",
+    "3 繁体中文": "（註：員工可於房間開門權限功能中為租客授權或刪除開門權限，無法查看租客之密碼、卡、指紋及人臉資料，更能保障租客隱私安全）",
+    "4 西班牙语（Español）":
+        "(Nota: El personal puede autorizar o revocar los derechos de acceso a la habitación del inquilino, pero no puede ver las contraseñas, tarjetas, huellas dactilares o datos faciales del inquilino, protegiendo mejor la privacidad y seguridad del inquilino)",
+    "5 葡萄牙语（Português）":
+        "(Nota: A equipe pode autorizar ou revogar os direitos de acesso do inquilino ao quarto, mas não pode visualizar senhas, cartões, impressões digitais ou dados faciais do inquilino, protegendo melhor a privacidade e segurança do inquilino)",
+    "6 法语（Français）":
+        "(Note : Le personnel peut autoriser ou révoquer les droits d'accès aux chambres des locataires, mais ne peut pas consulter leurs mots de passe, cartes, empreintes digitales ou données faciales, protégeant ainsi mieux la vie privée et la sécurité des locataires)",
+    "7 越南语（Tiếng Việt）":
+        "(Lưu ý: Nhân viên có thể cấp hoặc thu hồi quyền truy cập phòng của khách thuê, nhưng không thể xem mật khẩu, thẻ, vân tay hoặc dữ liệu khuôn mặt của khách thuê, giúp bảo vệ tốt hơn quyền riêng tư và an ninh của khách thuê)",
+    "8 意大利语（Italiano）":
+        "(Nota: il personale può autorizzare o revocare i diritti di accesso alla stanza del tenant, ma non può visualizzare le password, carte, impronte digitali o dati facciali del tenant, garantendo una migliore protezione della privacy e sicurezza)",
+    "9 俄语（Русский）":
+        "(Примечание: персонал может авторизовать или отменить права доступа жильца в комнату, но не может просматривать пароли, карты, отпечатки пальцев или данные лица жильца, что обеспечивает лучшую защиту конфиденциальности и безопасности)",
+    "10 德语（Deutsch）":
+        "(Hinweis: Mitarbeiter können den Zutritt von Mietern autorisieren oder widerrufen, jedoch keine Passwörter, Karten, Fingerabdrücke oder Gesichtsdaten einsehen – zum besseren Schutz der Mieter-Privatsphäre und -Sicherheit)",
+    "11 泰语（ภาษาไทย）":
+        "(หมายเหตุ: พนักงานสามารถอนุญาตหรือเพิกถอนสิทธิ์การเข้าห้องของผู้เช่าได้ แต่ไม่สามารถดูรหัสผ่าน บัตร ลายนิ้วมือ หรือข้อมูลใบหน้าของผู้เช่า ช่วยปกป้องความเป็นส่วนตัวและความปลอดภัยของผู้เช่าได้ดียิ่งขึ้น)",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "(Catatan: Staf dapat mengizinkan atau mencabut hak akses kamar penyewa, tetapi tidak dapat melihat kata sandi, kartu, sidik jari, atau data wajah penyewa, sehingga lebih melindungi privasi dan keamanan penyewa)",
+    "13 马来语（Bahasa Melayu）":
+        "(Catatan: Staf boleh mengesahkan atau mencabut hak akses bilik penyewa, tetapi tidak boleh melihat kata laluan, kad, cap jari, atau data wajah penyewa, melindungi privasi dan keselamatan penyewa dengan lebih baik)",
+    "": ""
+  },
+  {
+    "1 简体中文": "员工开门权限未删除，是否继续删除员工？",
+    "2 English": "Staff access not removed. Continue deleting staff?",
+    "3 繁体中文": "員工開門權限未刪除，是否繼續刪除員工？",
+    "4 西班牙语（Español）":
+        "No se eliminó el acceso del personal. ¿Continuar eliminando al personal?",
+    "5 葡萄牙语（Português）":
+        "Acesso do funcionário não removido. Continuar excluindo funcionário?",
+    "6 法语（Français）":
+        "Accès du personnel non supprimé. Continuer la suppression ?",
+    "7 越南语（Tiếng Việt）":
+        "Truy cập nhân viên chưa được xóa. Tiếp tục xóa nhân viên?",
+    "8 意大利语（Italiano）":
+        "Accesso staff non rimosso. Continuare a eliminare lo staff?",
+    "9 俄语（Русский）":
+        "Доступ сотрудника не удален. Продолжить удаление сотрудника?",
+    "10 德语（Deutsch）":
+        "Zugriff des Mitarbeiters nicht entfernt. Fortfahren mit Löschen des Mitarbeiters?",
+    "11 泰语（ภาษาไทย）":
+        "การเข้าถึงของพนักงานยังไม่ถูกลบ ต้องการลบพนักงานต่อไปหรือไม่?",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Akses staf tidak dihapus. Lanjutkan menghapus staf?",
+    "13 马来语（Bahasa Melayu）": "Akses staf tidak dibuang. Teruskan memadam staf?",
+    "": ""
+  },
+  {
+    "1 简体中文": "电子钥匙有效期已更新，请通知租客更新开门权限有效期",
+    "2 English":
+        "Ekey validity updated. Notify tenant to update access permission.",
+    "3 繁体中文": "電子鑰匙有效期已更新，請通知房客更新開門權限有效期",
+    "4 西班牙语（Español）":
+        "Validez de ekey actualizada. Notificar al inquilino que actualice el permiso de acceso.",
+    "5 葡萄牙语（Português）":
+        "Validade da chave atualizada. Notifique o inquilino para atualizar a permissão de acesso.",
+    "6 法语（Français）":
+        "Validité de la clé électronique mise à jour. Informer le locataire de mettre à jour ses droits d'accès.",
+    "7 越南语（Tiếng Việt）":
+        "Đã cập nhật thời hạn Ekey. Thông báo cho người thuê cập nhật quyền truy cập.",
+    "8 意大利语（Italiano）":
+        "Validità ekey aggiornata. Notifica al inquilino di aggiornare il permesso di accesso.",
+    "9 俄语（Русский）":
+        "Срок действия Ekey обновлен. Уведомите жильца об обновлении прав доступа.",
+    "10 德语（Deutsch）":
+        "Ekey-Gültigkeit aktualisiert. Mieter zur Aktualisierung der Zugangsberechtigung benachrichtigen.",
+    "11 泰语（ภาษาไทย）":
+        "อัปเดตระยะเวลาใช้งาน Ekey เรียบร้อยแล้ว แจ้งผู้เช่าอัปเดตสิทธิ์การเข้าถึง",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Validitas Ekey diperbarui. Beri tahu penyewa untuk memperbarui izin akses.",
+    "13 马来语（Bahasa Melayu）":
+        "Kesahan Ekey dikemas kini. Beritahu penyewa untuk kemaskini kebenaran akses.",
+    "": ""
+  },
+  {
+    "1 简体中文": "【Joystay】请及时更新您的开门权限有效期，开启“Joystay”App消息推送，更新消息会及时通知您。",
+    "2 English":
+        "[Joystay] Please update your door access validity period in time and enable \"Joystay\" App push notifications to receive updates promptly.",
+    "3 繁体中文": "【Joystay】請及時更新您的開門權限有效期限，並開啟「Joystay」App推播通知，以便即時接收更新訊息。",
+    "4 西班牙语（Español）":
+        "[Joystay] Actualice a tiempo el período de validez del acceso a la puerta y habilite las notificaciones push de la app \"Joystay\" para recibir actualizaciones promptly.",
+    "5 葡萄牙语（Português）":
+        "[Joystay] Atualize a validade do acesso à porta e ative as notificações push do app \"Joystay\" para receber atualizações.",
+    "6 法语（Français）":
+        "[Joystay] Veuillez mettre à jour votre période de validité d'accès à la porte à temps et activer les notifications push de l'appli « Joystay » pour recevoir les mises à jour en temps réel.",
+    "7 越南语（Tiếng Việt）":
+        "[Joystay] Vui lòng cập nhật thời hạn truy cập cửa kịp thời và bật thông báo đẩy ứng dụng \"Joystay\" để nhận cập nhật nhanh chóng.",
+    "8 意大利语（Italiano）":
+        "[Joystay] Aggiorna in tempo il periodo di validità dell'accesso alla porta e abilita le notifiche push dell'app \"Joystay\" per ricevere aggiornamenti tempestivamente.",
+    "9 俄语（Русский）":
+        "[Joystay] Обновите срок действия доступа к двери и включите push-уведомления приложения \"Joystay\", чтобы своевременно получать обновления.",
+    "10 德语（Deutsch）":
+        "[Joystay] Bitte aktualisieren Sie Ihre Türzugangsberechtigung rechtzeitig und aktivieren Sie Push-Benachrichtigungen in der Joystay-App, um Aktualisierungen sofort zu erhalten.",
+    "11 泰语（ภาษาไทย）":
+        "[Joystay] โปรดอัปเดตระยะเวลาการใช้งานประตูให้ทันเวลา และเปิดการแจ้งเตือนแบบพุชในแอป \"Joystay\" เพื่อรับข้อมูลล่าสุดอย่างรวดเร็ว",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "[Joystay] Harap perbarui masa berlaku akses pintu Anda tepat waktu dan aktifkan notifikasi push aplikasi \"Joystay\" untuk menerima pembaruan secara cepat.",
+    "13 马来语（Bahasa Melayu）":
+        "[Joystay] Sila kemas kini tempoh sah akses pintu anda pada waktunya dan dayakan pemberitahuan tolak App \"Joystay\" untuk menerima kemas kini dengan segera.",
+    "": ""
+  },
+  {
+    "1 简体中文": "自动在账单支付日前发送催缴，请保证短信余额充足",
+    "2 English":
+        "Auto-send payment reminders before bill due date. Ensure sufficient SMS balance.",
+    "3 繁体中文": "自動於帳單支付日前發送催繳，請確保短信餘額充足",
+    "4 西班牙语（Español）":
+        "Enviar recordatorios de pago automáticamente antes de la fecha de vencimiento. Asegúrese de tener saldo suficiente en SMS.",
+    "5 葡萄牙语（Português）":
+        "Enviar lembretes de pagamento automaticamente antes da data de vencimento. Garantir saldo suficiente de SMS.",
+    "6 法语（Français）":
+        "Envoi auto des rappels de paiement avant la date d'échéance. Vérifiez le solde SMS.",
+    "7 越南语（Tiếng Việt）":
+        "Tự động gửi nhắc thanh toán trước ngày đến hạn. Đảm bảo số dư SMS đủ.",
+    "8 意大利语（Italiano）":
+        "Invio automatico promemoria pagamento prima della scadenza. Verifica saldo SMS sufficiente.",
+    "9 俄语（Русский）":
+        "Автоматическая отправка напоминаний о платежах до даты оплаты. Убедитесь в достаточном балансе SMS.",
+    "10 德语（Deutsch）":
+        "Automatische Zahlungserinnerungen vor Fälligkeitsdatum versenden. Ausreichendes SMS-Guthaben sicherstellen.",
+    "11 泰语（ภาษาไทย）":
+        "ส่งการแจ้งเตือนการชำระเงินอัตโนมัติก่อนวันครบกำหนด ตรวจสอบยอด SMS ให้เพียงพอ",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Kirimkan pengingat pembayaran secara otomatis sebelum tanggal jatuh tempo tagihan. Pastikan saldo SMS mencukupi.",
+    "13 马来语（Bahasa Melayu）":
+        "Hantar notifikasi pembayaran automatik sebelum tarikh akhir. Pastikan baki SMS mencukupi.",
+    "": ""
+  },
+  {
+    "1 简体中文": "防撬报警",
+    "2 English": "Tamper Alert",
+    "3 繁体中文": "防撬警報",
+    "4 西班牙语（Español）": "Alerta de manipulación",
+    "5 葡萄牙语（Português）": "Alerta de violação",
+    "6 法语（Français）": "Alerte d'intrusion",
+    "7 越南语（Tiếng Việt）": "Cảnh báo xâm nhập",
+    "8 意大利语（Italiano）": "Allarme manomissione",
+    "9 俄语（Русский）": "Тревога вскрытия",
+    "10 德语（Deutsch）": "Manipulationsalarm",
+    "11 泰语（ภาษาไทย）": "การแจ้งเตือนการดัดแปลง",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Peringatan Pembobolan",
+    "13 马来语（Bahasa Melayu）": "Amaran Pencerobohan",
+    "": ""
+  },
+  {
+    "1 简体中文": "开启后，锁被撬动时，会发出报警声。",
+    "2 English": "Alarm sounds when lock is tampered with after enabled.",
+    "3 繁体中文": "開啟後，鎖遭撬動時將發出警報聲。",
+    "4 西班牙语（Español）":
+        "Alarma suena si el bloqueo es manipulado tras activarlo.",
+    "5 葡萄牙语（Português）":
+        "Alarme soa quando o bloqueio for violado após ativação.",
+    "6 法语（Français）":
+        "Alarme déclenchée si tentative de manipulation du verrou après activation.",
+    "7 越南语（Tiếng Việt）": "Cảnh báo kêu khi khóa bị cậy sau khi bật.",
+    "8 意大利语（Italiano）":
+        "Allarme attivato se il blocco viene manomesso dopo l'abilitazione.",
+    "9 俄语（Русский）": "Тревога при вскрытии замка после включения",
+    "10 德语（Deutsch）":
+        "Alarm ertönt bei Manipulation am Schloss nach Aktivierung.",
+    "11 泰语（ภาษาไทย）": "ปลุกจะดังเมื่อมีการแทรกแซงล็อกหลังจากเปิดใช้งานแล้ว",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Alarm berbunyi saat kunci dirusak setelah diaktifkan.",
+    "13 马来语（Bahasa Melayu）":
+        "Penggera berbunyi apabila kunci dicelah selepas didayakan.",
+    "": ""
+  },
+  {
+    "1 简体中文": "账单欠费断电",
+    "2 English": "Power Off Due to Unpaid Bill",
+    "3 繁体中文": "帳單欠費斷電",
+    "4 西班牙语（Español）": "Apagado por impago",
+    "5 葡萄牙语（Português）": "Desligado por falta de pagamento",
+    "6 法语（Français）": "Arrêt pour impayé",
+    "7 越南语（Tiếng Việt）": "Tắt nguồn do chưa thanh toán hóa đơn",
+    "8 意大利语（Italiano）": "Spegnimento per mancato pagamento",
+    "9 俄语（Русский）": "Откл. за неуплату",
+    "10 德语（Deutsch）": "Abschaltung wegen unbezahlter Rechnung",
+    "11 泰语（ภาษาไทย）": "ปิดเนื่องจากค่าบริการค้างชำระ",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Matikan Listrik Karena Tagihan Belum Dibayar",
+    "13 马来语（Bahasa Melayu）": "Matikan Kuasa Kerana Bil Tidak Dibayar",
+    "": ""
+  },
+  {
+    "1 简体中文": "租客待付账单逾期电表自动断电，缴费自动通电，本功能需电表联网",
+    "2 English":
+        "Tenant's overdue bill triggers auto power-off via smart meter, payment reactivates power. Meter must be online.",
+    "3 繁体中文": "租客逾期未繳帳單將自動斷電，繳費後自動復電，此功能需電表連網",
+    "4 西班牙语（Español）":
+        "La factura vencida del inquilino activa el corte automático de energía mediante el medidor inteligente; el pago reactiva la energía. El medidor debe estar en línea.",
+    "5 葡萄牙语（Português）":
+        "Conta atrasada do inquilino aciona desligamento automático via medidor inteligente, pagamento reativa energia. Medidor deve estar online.",
+    "6 法语（Français）":
+        "La facture impayée du locataire déclenche la coupure automatique via le compteur intelligent, le paiement réactive l'alimentation. Le compteur doit être en ligne.",
+    "7 越南语（Tiếng Việt）":
+        "Hóa đơn quá hạn của khách thuê kích hoạt tắt điện tự động qua công tơ thông minh, thanh toán để khôi phục điện. Công tơ phải đang kết nối.",
+    "8 意大利语（Italiano）":
+        "La bolletta in ritardo del tenant attiva lo spegnimento automatico tramite contatore intelligente, il pagamento riattiva l'energia. Il contatore deve essere online.",
+    "9 俄语（Русский）":
+        "Задолженность арендатора приводит к автоматическому отключению питания через смарт-счётчик, оплата возобновляет подачу. Счётчик должен быть в сети.",
+    "10 德语（Deutsch）":
+        "Überfällige Rechnung des Mieters löst automatische Abschaltung über Smart Meter aus, Zahlung reaktiviert Strom. Zähler muss online sein.",
+    "11 泰语（ภาษาไทย）":
+        "บิลค้างชำระของผู้เช่าจะทำให้ไฟฟ้าดับอัตโนมัติผ่านมิเตอร์อัจฉริยะ การจ่ายเงินจะทำให้ไฟกลับมาใช้งานได้ มิเตอร์ต้องออนไลน์เสมอ",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Tagihan tertunda penghuni memicu pemadaman otomatis melalui meteran pintar, pembayaran mengaktifkan kembali daya. Meter harus online.",
+    "13 马来语（Bahasa Melayu）":
+        "Bil tertunggak penyewa mencetuskan pemadaman automatik melalui meter pintar, pembayaran akan mengaktifkan semula bekalan. Meter mesti dalam talian.",
+    "": ""
+  },
+  {
+    "1 简体中文": "该锁的遥控都将被删除",
+    "2 English": "All remotes for this lock will be deleted",
+    "3 繁体中文": "該鎖之遙控將全數刪除",
+    "4 西班牙语（Español）":
+        "Se eliminarán todos los controles remotos para esta cerradura",
+    "5 葡萄牙语（Português）":
+        "Todos os controles remotos para este bloqueio serão excluídos",
+    "6 法语（Français）":
+        "Toutes les télécommandes pour cette serrure seront supprimées",
+    "7 越南语（Tiếng Việt）": "Tất cả điều khiển từ xa cho khóa này sẽ bị xóa",
+    "8 意大利语（Italiano）":
+        "Tutti i telecomandi per questa serratura verranno eliminati",
+    "9 俄语（Русский）": "Все пульты для этого замка будут удалены",
+    "10 德语（Deutsch）": "Alle Fernbedienungen für dieses Schloss werden gelöscht",
+    "11 泰语（ภาษาไทย）": "รีโมตทั้งหมดสำหรับล็อกนี้จะถูกลบออก",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Semua remote untuk kunci ini akan dihapus",
+    "13 马来语（Bahasa Melayu）":
+        "Semua kawalan jauh untuk kunci ini akan dipadamkan",
+    "": ""
+  },
+  {
+    "1 简体中文": "遥控",
+    "2 English": "Remote",
+    "3 繁体中文": "遙控",
+    "4 西班牙语（Español）": "Remoto",
+    "5 葡萄牙语（Português）": "Remoto",
+    "6 法语（Français）": "Télém.",
+    "7 越南语（Tiếng Việt）": "Từ xa",
+    "8 意大利语（Italiano）": "Remoto",
+    "9 俄语（Русский）": "Удаленно",
+    "10 德语（Deutsch）": "Fernzugriff",
+    "11 泰语（ภาษาไทย）": "รีโมท",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Remote",
+    "13 马来语（Bahasa Melayu）": "Remote",
+    "": ""
+  },
+  {
+    "1 简体中文": "重置",
+    "2 English": "Reset",
+    "3 繁体中文": "重置",
+    "4 西班牙语（Español）": "Restablecer",
+    "5 葡萄牙语（Português）": "Redefinir",
+    "6 法语（Français）": "Réinitialiser",
+    "7 越南语（Tiếng Việt）": "Đặt lại",
+    "8 意大利语（Italiano）": "Reset",
+    "9 俄语（Русский）": "Сброс",
+    "10 德语（Deutsch）": "Zurücksetzen",
+    "11 泰语（ภาษาไทย）": "รีเซ็ต",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Reset",
+    "13 马来语（Bahasa Melayu）": "Tetapkan semula",
+    "": ""
+  },
+  {
+    "1 简体中文": "请输入名称",
+    "2 English": "Please enter name",
+    "3 繁体中文": "請輸入名稱",
+    "4 西班牙语（Español）": "Ingrese el nombre",
+    "5 葡萄牙语（Português）": "Insira o nome",
+    "6 法语（Français）": "Veuillez saisir le nom",
+    "7 越南语（Tiếng Việt）": "Vui lòng nhập tên",
+    "8 意大利语（Italiano）": "Inserisci il nome",
+    "9 俄语（Русский）": "Введите имя",
+    "10 德语（Deutsch）": "Bitte Namen eingeben",
+    "11 泰语（ภาษาไทย）": "กรุณาใส่ชื่อ",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Masukkan nama",
+    "13 马来语（Bahasa Melayu）": "Sila masukkan nama",
+    "": ""
+  },
+  {
+    "1 简体中文": "添加遥控",
+    "2 English": "Add Remote",
+    "3 繁体中文": "新增遙控",
+    "4 西班牙语（Español）": "Agregar control remoto",
+    "5 葡萄牙语（Português）": "Adicionar Controle Remoto",
+    "6 法语（Français）": "Ajouter télécommande",
+    "7 越南语（Tiếng Việt）": "Thêm điều khiển từ xa",
+    "8 意大利语（Italiano）": "Aggiungi Telecomando",
+    "9 俄语（Русский）": "Добавить пульт",
+    "10 德语（Deutsch）": "Fernbedienung hinzufügen",
+    "11 泰语（ภาษาไทย）": "เพิ่มรีโมต",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Tambahkan Remote",
+    "13 马来语（Bahasa Melayu）": "Tambah Jauh",
+    "": ""
+  },
+  {
+    "1 简体中文": "选择遥控类型",
+    "2 English": "Select Remote Type",
+    "3 繁体中文": "選擇遙控類型",
+    "4 西班牙语（Español）": "Seleccionar tipo de control remoto",
+    "5 葡萄牙语（Português）": "Selecionar Tipo de Controle",
+    "6 法语（Français）": "Sélectionner le type de télécommande",
+    "7 越南语（Tiếng Việt）": "Chọn loại điều khiển từ xa",
+    "8 意大利语（Italiano）": "Seleziona tipo remoto",
+    "9 俄语（Русский）": "Выберите тип удалённого устройства",
+    "10 德语（Deutsch）": "Fernbedienungstyp auswählen",
+    "11 泰语（ภาษาไทย）": "เลือกประเภทรีโมต",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Pilih Jenis Remote",
+    "13 马来语（Bahasa Melayu）": "Pilih Jenis Jauh",
+    "": ""
+  },
+  {
+    "1 简体中文": "长按闭锁键5秒",
+    "2 English": "Press and hold the lock button for 5 seconds",
+    "3 繁体中文": "長按閉鎖鍵5秒",
+    "4 西班牙语（Español）":
+        "Mantenga presionado el botón de bloqueo durante 5 segundos",
+    "5 葡萄牙语（Português）": "Pressione e segure o botão de trava por 5 segundos",
+    "6 法语（Français）":
+        "Appuyez et maintenez le bouton de verrouillage pendant 5 s",
+    "7 越南语（Tiếng Việt）": "Nhấn và giữ nút khóa trong 5 giây",
+    "8 意大利语（Italiano）":
+        "Premere e tenere premuto il pulsante di blocco per 5 secondi",
+    "9 俄语（Русский）": "Нажмите и удерживайте кнопку замка 5 секунд",
+    "10 德语（Deutsch）":
+        "Drücken und halten Sie die Verriegelungstaste 5 Sekunden lang",
+    "11 泰语（ภาษาไทย）": "กดและค้างปุ่มล็อกไว้ 5 วินาที",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Tekan dan tahan tombol kunci selama 5 detik",
+    "13 马来语（Bahasa Melayu）": "Tekan dan tahan butang kunci selama 5 saat",
+    "": ""
+  },
+  {
+    "1 简体中文": "长按开锁键5秒",
+    "2 English": "Press and hold unlock key for 5s",
+    "3 繁体中文": "長按開鎖鍵5秒",
+    "4 西班牙语（Español）": "Mantenga pulsada la tecla de desbloqueo durante 5 s",
+    "5 葡萄牙语（Português）": "Pressione e segure a tecla de destravar por 5s",
+    "6 法语（Français）":
+        "Appuyez et maintenez la touche de déverrouillage pendant 5 s",
+    "7 越南语（Tiếng Việt）": "Nhấn và giữ phím mở khóa 5 giây",
+    "8 意大利语（Italiano）": "Premere e tenere premuto il tasto di sblocco per 5 s",
+    "9 俄语（Русский）": "Нажмите и удерживайте кнопку разблокировки 5 с",
+    "10 德语（Deutsch）": "Taste „Entsperren“ 5 Sekunden lang gedrückt halten",
+    "11 泰语（ภาษาไทย）": "กดและค้างปุ่มปลดล็อก 5 วินาที",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Tekan dan tahan tombol buka kunci selama 5 detik",
+    "13 马来语（Bahasa Melayu）": "Tekan dan tahan kunci buka selama 5 saat",
+    "": ""
+  },
+  {
+    "1 简体中文": "当指示灯闪烁时，点击下一步",
+    "2 English": "When the indicator blinks, tap Next",
+    "3 繁体中文": "指示燈閃爍時，按下一步",
+    "4 西班牙语（Español）": "Cuando el indicador parpadee, toque Siguiente",
+    "5 葡萄牙语（Português）": "Quando o indicador piscar, toque em Avançar",
+    "6 法语（Français）": "Lorsque l'indicateur clignote, appuyez sur Suiv.",
+    "7 越南语（Tiếng Việt）": "Khi đèn nháy, nhấn Tiếp theo",
+    "8 意大利语（Italiano）": "Quando l'indicatore lampeggia, tocca Avanti",
+    "9 俄语（Русский）": "Когда индикатор мигает, нажмите Далее",
+    "10 德语（Deutsch）": "Wenn die Anzeige blinkt, tippen Sie auf Weiter",
+    "11 泰语（ภาษาไทย）": "เมื่อตัวบ่งชี้กะพริบ ให้แตะ ถัดไป",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Saat indikator berkedip, ketuk Berikutnya",
+    "13 马来语（Bahasa Melayu）": "Apabila penunjuk berkelip, tekan Seterusnya",
+    "": ""
+  },
+  {
+    "1 简体中文": "当听到“滴滴”两声时，点击下一步",
+    "2 English": "When you hear two \"beep\" sounds, tap Next",
+    "3 繁体中文": "聽到「滴」兩聲後，按下一步",
+    "4 西班牙语（Español）": "Al escuchar dos pitidos, toque Siguiente",
+    "5 葡萄牙语（Português）": "Quando ouvir dois sons \"bip\", toque em Avançar",
+    "6 法语（Français）": "Lorsque vous entendez deux bips, appuyez sur Suiv.",
+    "7 越南语（Tiếng Việt）": "Khi nghe hai tiếng \"beep\", nhấn Tiếp theo",
+    "8 意大利语（Italiano）": "Dopo due segnali acustici \"beep\", tocca Avanti",
+    "9 俄语（Русский）": "После двух звуковых сигналов нажмите Далее",
+    "10 德语（Deutsch）": "Bei zwei „Piep“-Tönen tippen Sie auf Weiter",
+    "11 泰语（ภาษาไทย）": "เมื่อคุณได้ยินเสียง \"บี๊ป\" สองครั้ง ให้แตะ ถัดไป",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Setelah mendengar dua suara \"beep\", ketuk Berikutnya",
+    "13 马来语（Bahasa Melayu）":
+        "Apabila anda mendengar dua bunyi \"bip\", tekan Seterusnya",
+    "": ""
+  },
+  {
+    "1 简体中文": "电量信息可以通过手机蓝牙在设备旁边更新",
+    "2 English":
+        "Battery info can be updated via phone Bluetooth near the device",
+    "3 繁体中文": "電量資訊可透過手機藍牙在設備旁更新",
+    "4 西班牙语（Español）":
+        "La info de la batería se puede actualizar vía Bluetooth del teléfono cerca del dispositivo",
+    "5 葡萄牙语（Português）":
+        "A info da bateria pode ser atualizada via Bluetooth do telefone próximo ao dispositivo",
+    "6 法语（Français）":
+        "Les infos batterie peuvent être mises à jour via Bluetooth du téléphone près du dispositif",
+    "7 越南语（Tiếng Việt）":
+        "Thông tin pin có thể được cập nhật qua Bluetooth điện thoại gần thiết bị",
+    "8 意大利语（Italiano）":
+        "Info batteria aggiornabili tramite Bluetooth del telefono vicino al dispositivo",
+    "9 俄语（Русский）":
+        "Информацию о батарее можно обновить через Bluetooth телефона вблизи устройства",
+    "10 德语（Deutsch）":
+        "Batterieinfo kann per Bluetooth des Telefons in Gerätenähe aktualisiert werden",
+    "11 泰语（ภาษาไทย）":
+        "ข้อมูลแบตเตอรี่สามารถอัปเดตผ่านบลูทูธของโทรศัพท์ใกล้อุปกรณ์ได้",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Info baterai dapat diperbarui melalui Bluetooth ponsel di dekat perangkat",
+    "13 马来语（Bahasa Melayu）":
+        "Maklumat bateri boleh dikemas kini melalui Bluetooth telefon berdekatan peranti",
+    "": ""
+  },
+  {
+    "1 简体中文": "如果您在设备旁边，可打开蓝牙后重试",
+    "2 English": "If you're near the device, turn on Bluetooth and try again",
+    "3 繁体中文": "若在設備旁，可開啟藍牙後重試",
+    "4 西班牙语（Español）":
+        "Si estás cerca del dispositivo, activa Bluetooth e inténtalo de nuevo",
+    "5 葡萄牙语（Português）":
+        "Se estiver perto do dispositivo, ative o Bluetooth e tente novamente",
+    "6 法语（Français）":
+        "Si vous êtes près du dispositif, activez le Bluetooth et réessayez",
+    "7 越南语（Tiếng Việt）": "Nếu bạn ở gần thiết bị, hãy bật Bluetooth và thử lại",
+    "8 意大利语（Italiano）":
+        "Se sei vicino al dispositivo, attiva il Bluetooth e riprova",
+    "9 俄语（Русский）":
+        "Если вы рядом с устройством, включите Bluetooth и повторите попытку",
+    "10 德语（Deutsch）":
+        "Wenn Sie sich in der Nähe des Geräts befinden, aktivieren Sie Bluetooth und versuchen Sie es erneut",
+    "11 泰语（ภาษาไทย）": "หากอยู่ใกล้อุปกรณ์ ให้เปิดบลูทูธแล้วลองอีกครั้ง",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Jika Anda dekat perangkat, nyalakan Bluetooth dan coba lagi",
+    "13 马来语（Bahasa Melayu）":
+        "Jika anda berdekatan dengan peranti, hidupkan Bluetooth dan cuba lagi",
+    "": ""
+  },
+  {
+    "1 简体中文": "网络MAC",
+    "2 English": "Network MAC",
+    "3 繁体中文": "網路MAC",
+    "4 西班牙语（Español）": "MAC de red",
+    "5 葡萄牙语（Português）": "MAC da Rede",
+    "6 法语（Français）": "MAC réseau",
+    "7 越南语（Tiếng Việt）": "MAC mạng",
+    "8 意大利语（Italiano）": "MAC di rete",
+    "9 俄语（Русский）": "MAC-адрес сети",
+    "10 德语（Deutsch）": "Netzwerk-MAC",
+    "11 泰语（ภาษาไทย）": "MAC เครือข่าย",
+    "12 印度尼西亚语（Bahasa Indonesia）": "MAC Jaringan",
+    "13 马来语（Bahasa Melayu）": "MAC Rangkaian",
+    "": ""
+  },
+  {
+    "1 简体中文": "遥控详情",
+    "2 English": "Remote Info",
+    "3 繁体中文": "遙控詳情",
+    "4 西班牙语（Español）": "Información del Remoto",
+    "5 葡萄牙语（Português）": "Informação de Comando remoto",
+    "6 法语（Français）": "Informations de la télécommande",
+    "7 越南语（Tiếng Việt）": "Thông tin Remote",
+    "8 意大利语（Italiano）": "Informazioni remote",
+    "9 俄语（Русский）": "Информация о пульте",
+    "10 德语（Deutsch）": "Funkschlüssel Info",
+    "11 泰语（ภาษาไทย）": "ข้อมูลรีโมท",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Info Remote",
+    "13 马来语（Bahasa Melayu）": "Maklumat Kawalan Jauh",
+    "": ""
+  },
+  {
+    "1 简体中文": "财务设置",
+    "2 English": "Finance Settings",
+    "3 繁体中文": "財務設定",
+    "4 西班牙语（Español）": "Config. financiera",
+    "5 葡萄牙语（Português）": "Configurações Financeiras",
+    "6 法语（Français）": "Paramètres financiers",
+    "7 越南语（Tiếng Việt）": "Cài đặt tài chính",
+    "8 意大利语（Italiano）": "Impostazioni finanziarie",
+    "9 俄语（Русский）": "Финансовые настройки",
+    "10 德语（Deutsch）": "Finanz-Einstellungen",
+    "11 泰语（ภาษาไทย）": "การตั้งค่าการเงิน",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Pengaturan Keuangan",
+    "13 马来语（Bahasa Melayu）": "Tetapan Kewangan",
+    "": ""
+  },
+  {
+    "1 简体中文": "待收账单拆分",
+    "2 English": "Split Pending Bill",
+    "3 繁体中文": "待收賬單拆分",
+    "4 西班牙语（Español）": "Factura pendiente dividida",
+    "5 葡萄牙语（Português）": "Dividir conta pendente",
+    "6 法语（Français）": "Facture partagée en attente",
+    "7 越南语（Tiếng Việt）": "Chia hóa đơn đang chờ",
+    "8 意大利语（Italiano）": "Dividi bolletta sospesa",
+    "9 俄语（Русский）": "Разделить ожидающий счёт",
+    "10 德语（Deutsch）": "Ausstehende Rechnung teilen",
+    "11 泰语（ภาษาไทย）": "รอแบ่งบิลค้างชำระ",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Pisah Tagihan Tertunda",
+    "13 马来语（Bahasa Melayu）": "Bahagian Bil Belum Selesai",
+    "": ""
+  },
+  {
+    "1 简体中文": "开启后，租客可自行拆分房租为多期支付，以缓解资金压力，公寓方将获得每期的拆分服务费收益；平台将收取租客分期金额1%的手续费。",
+    "2 English":
+        "By enabling, tenants can split rent into multiple payments; property receives service fee per installment; platform charges 1% handling fee on installment amount.",
+    "3 繁体中文": "啟用後，房客可自行將租金分期支付，減輕資金壓力，公寓可獲得每期拆分服務費；平台將收取房客分期金額1%手續費。",
+    "4 西班牙语（Español）":
+        "Al activar, los inquilinos pueden dividir el alquiler en varios pagos; la propiedad recibe una tarifa de servicio por cuota; la plataforma cobra una tarifa de manejo del 1 % sobre el monto de la cuota.",
+    "5 葡萄牙语（Português）":
+        "Ao ativar, inquilinos podem dividir o aluguel em múltiplos pagamentos; a propriedade recebe taxa de serviço por parcela; a plataforma cobra taxa de 1% sobre o valor parcelado.",
+    "6 法语（Français）":
+        "En activant cette option, les locataires peuvent fractionner le loyer en plusieurs paiements ; le propriétaire perçoit des frais de service par échéance ; la plateforme prélève 1 % de frais de traitement sur le montant de chaque échéance.",
+    "7 越南语（Tiếng Việt）":
+        "Kích hoạt để cho phép khách thuê chia nhỏ tiền thuê thành nhiều đợt; chủ bất động sản thu phí dịch vụ trên mỗi đợt; nền tảng thu phí xử lý 1% trên số tiền từng đợt.",
+    "8 意大利语（Italiano）":
+        "Abilitando, gli inquilini possono suddividere l’affitto in più rate; la proprietà riceve una commissione di servizio per ogni rata; la piattaforma addebita una commissione di gestione dello 1% sull’importo della rata.",
+    "9 俄语（Русский）":
+        "Включив функцию, арендаторы могут разбивать арендную плату на несколько платежей; управляющая компания получает комиссию за каждый платёж; платформа взимает комиссию 1 % от суммы каждого платежа.",
+    "10 德语（Deutsch）":
+        "Bei Aktivierung können Mieter die Miete in mehrere Raten zahlen; Objekt erhält pro Rate eine Servicegebühr; Plattform berechnet 1 % Bearbeitungsgebühr auf den Ratenbetrag.",
+    "11 泰语（ภาษาไทย）":
+        "เปิดใช้งานแล้ว ผู้เช่าสามารถแบ่งค่าเช่าออกเป็นหลายงวดได้; ผู้ประกอบการอสังหาริมทรัพย์จะได้รับค่าธรรมเนียมบริการต่องวด; แพลตฟอร์มเรียกเก็บค่าธรรมเนียมจัดการ 1% จากราคาแต่ละงวด",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Dengan mengaktifkan, penyewa dapat mencicil sewa; properti menerima biaya layanan per cicilan; platform membebankan biaya penanganan 1% dari jumlah cicilan.",
+    "13 马来语（Bahasa Melayu）":
+        "Dengan mengaktifkan, penyewa boleh membahagikan sewa kepada beberapa bayaran; hartanah menerima yuran perkhidmatan bagi setiap ansuran; platform mengenakan yuran pengendalian 1% atas jumlah ansuran.",
+    "": ""
+  },
+  {
+    "1 简体中文": "请选择拆分期数及对应的拆分服务费比例",
+    "2 English":
+        "Please select the number of split periods and corresponding service fee rate",
+    "3 繁体中文": "請選擇分期期數及對應之分期服務費比例",
+    "4 西班牙语（Español）":
+        "Seleccione el número de períodos de división y la tasa de tarifa de servicio correspondiente",
+    "5 葡萄牙语（Português）":
+        "Selecione o número de períodos de divisão e a taxa de tarifa de serviço correspondente",
+    "6 法语（Français）":
+        "Sélectionnez le nombre de périodes et le taux de frais de service correspondant",
+    "7 越南语（Tiếng Việt）":
+        "Vui lòng chọn số kỳ chia nhỏ và tỷ lệ phí dịch vụ tương ứng",
+    "8 意大利语（Italiano）":
+        "Seleziona numero periodi di suddivisione e relativa tariffa di servizio",
+    "9 俄语（Русский）":
+        "Выберите количество периодов разделения и соответствующую ставку сервисного сбора",
+    "10 德语（Deutsch）":
+        "Bitte Anzahl der Teilperioden und entsprechende Servicegebühr auswählen",
+    "11 泰语（ภาษาไทย）":
+        "โปรดเลือกจำนวนช่วงเวลาแบ่งและอัตราค่าบริการที่เกี่ยวข้อง",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Pilih jumlah periode pembagian dan tarif biaya layanan yang sesuai",
+    "13 马来语（Bahasa Melayu）":
+        "Sila pilih bilangan tempoh pecahan dan kadar yuran perkhidmatan yang sepadan",
+    "": ""
+  },
+  {
+    "1 简体中文": "拆分期数",
+    "2 English": "Installment Period",
+    "3 繁体中文": "分期數",
+    "4 西班牙语（Español）": "Periodo de cuota",
+    "5 葡萄牙语（Português）": "Período de Parcelamento",
+    "6 法语（Français）": "Période de versement",
+    "7 越南语（Tiếng Việt）": "Kỳ trả góp",
+    "8 意大利语（Italiano）": "Periodo della rata",
+    "9 俄语（Русский）": "Период рассрочки",
+    "10 德语（Deutsch）": "Ratenzeitraum",
+    "11 泰语（ภาษาไทย）": "ระยะเวลาผ่อนชำระ",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Periode Angsuran",
+    "13 马来语（Bahasa Melayu）": "Tempoh Ansuran",
+    "": ""
+  },
+  {
+    "1 简体中文": "请选择拆分期数",
+    "2 English": "Please select the number of periods",
+    "3 繁体中文": "請選擇拆分期數",
+    "4 西班牙语（Español）": "Seleccione el número de períodos",
+    "5 葡萄牙语（Português）": "Selecione o número de períodos",
+    "6 法语（Français）": "Veuillez sélectionner le nombre de périodes",
+    "7 越南语（Tiếng Việt）": "Vui lòng chọn số kỳ",
+    "8 意大利语（Italiano）": "Seleziona il numero di periodi",
+    "9 俄语（Русский）": "Выберите количество периодов",
+    "10 德语（Deutsch）": "Bitte Anzahl der Perioden auswählen",
+    "11 泰语（ภาษาไทย）": "โปรดเลือกจำนวนรอบ",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Pilih jumlah periode",
+    "13 马来语（Bahasa Melayu）": "Sila pilih bilangan tempoh",
+    "": ""
+  },
+  {
+    "1 简体中文": "拆分账单支付时间",
+    "2 English": "Split Bill Payment Time",
+    "3 繁体中文": "分帳支付時間",
+    "4 西班牙语（Español）": "Hora de pago dividido",
+    "5 葡萄牙语（Português）": "Tempo de Pagamento da Fatura Dividida",
+    "6 法语（Français）": "Heure de paiement partagé",
+    "7 越南语（Tiếng Việt）": "Thời gian thanh toán hóa đơn chia sẻ",
+    "8 意大利语（Italiano）": "Tempo pagamento fattura divisa",
+    "9 俄语（Русский）": "Время разделения оплаты",
+    "10 德语（Deutsch）": "Teilzahlungszeit",
+    "11 泰语（ภาษาไทย）": "เวลาชำระเงินค่าใช้จ่ายร่วม",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Waktu Pembayaran Tagihan Terpisah",
+    "13 马来语（Bahasa Melayu）": "Masa Bayaran Bil Berkongsi",
+    "": ""
+  },
+  {
+    "1 简体中文": "服务费比例",
+    "2 English": "Service Fee",
+    "3 繁体中文": "服務費比例",
+    "4 西班牙语（Español）": "Tarifa de servicio",
+    "5 葡萄牙语（Português）": "Taxa de Serviço",
+    "6 法语（Français）": "Frais de service",
+    "7 越南语（Tiếng Việt）": "Phí dịch vụ",
+    "8 意大利语（Italiano）": "Commissione di servizio",
+    "9 俄语（Русский）": "Плата за обслуживание",
+    "10 德语（Deutsch）": "Servicegebühr",
+    "11 泰语（ภาษาไทย）": "ค่าบริการ",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Biaya Layanan",
+    "13 马来语（Bahasa Melayu）": "Yuran Perkhidmatan",
+    "": ""
+  },
+  {
+    "1 简体中文": "参考",
+    "2 English": "Reference",
+    "3 繁体中文": "參考",
+    "4 西班牙语（Español）": "Referencia",
+    "5 葡萄牙语（Português）": "Ref.",
+    "6 法语（Français）": "Réf.",
+    "7 越南语（Tiếng Việt）": "Tham chiếu",
+    "8 意大利语（Italiano）": "Riferimento",
+    "9 俄语（Русский）": "Справка",
+    "10 德语（Deutsch）": "Referenz",
+    "11 泰语（ภาษาไทย）": "อ้างอิง",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Referensi",
+    "13 马来语（Bahasa Melayu）": "Rujukan",
+    "": ""
+  },
+  {
+    "1 简体中文": "结算方式",
+    "2 English": "Settlement Method",
+    "3 繁体中文": "結算方式",
+    "4 西班牙语（Español）": "Método de liquidación",
+    "5 葡萄牙语（Português）": "Método de Liquidação",
+    "6 法语（Français）": "Méthode de règlement",
+    "7 越南语（Tiếng Việt）": "Phương thức thanh toán",
+    "8 意大利语（Italiano）": "Metodo di regolamento",
+    "9 俄语（Русский）": "Способ расчёта",
+    "10 德语（Deutsch）": "Abrechnungsmethode",
+    "11 泰语（ภาษาไทย）": "วิธีการชำระเงิน",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Metode Penyelesaian",
+    "13 马来语（Bahasa Melayu）": "Kaedah Penyelesaian",
+    "": ""
+  },
+  {
+    "1 简体中文": "请选择结算方式",
+    "2 English": "Select Settlement Method",
+    "3 繁体中文": "請選擇結算方式",
+    "4 西班牙语（Español）": "Seleccionar método de liquidación",
+    "5 葡萄牙语（Português）": "Selecionar Método de Liquidação",
+    "6 法语（Français）": "Sélectionner méthode de règlement",
+    "7 越南语（Tiếng Việt）": "Chọn phương thức thanh toán",
+    "8 意大利语（Italiano）": "Seleziona metodo di regolamento",
+    "9 俄语（Русский）": "Выберите способ расчёта",
+    "10 德语（Deutsch）": "Abrechnungsmethode auswählen",
+    "11 泰语（ภาษาไทย）": "เลือกวิธีการตั้งหนี้",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Pilih Metode Penyelesaian",
+    "13 马来语（Bahasa Melayu）": "Pilih Kaedah Penyelesaian",
+    "": ""
+  },
+  {
+    "1 简体中文": "周期结算",
+    "2 English": "Cycle Billing",
+    "3 繁体中文": "週期結算",
+    "4 西班牙语（Español）": "Facturación cíclica",
+    "5 葡萄牙语（Português）": "Faturamento Cíclico",
+    "6 法语（Français）": "Facturation cyclique",
+    "7 越南语（Tiếng Việt）": "Thanh toán chu kỳ",
+    "8 意大利语（Italiano）": "Fatturazione Ciclica",
+    "9 俄语（Русский）": "Циклическое выставление счетов",
+    "10 德语（Deutsch）": "Zyklusabrechnung",
+    "11 泰语（ภาษาไทย）": "เรียกเก็บเงินแบบรอบระยะเวลา",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Penagihan Berkala",
+    "13 马来语（Bahasa Melayu）": "Kiraan Berkala",
+    "": ""
+  },
+  {
+    "1 简体中文": "零散期独立结算",
+    "2 English": "Independent Settlement for Scattered Period",
+    "3 繁体中文": "零散期獨立結算",
+    "4 西班牙语（Español）": "Liquidación independiente para períodos dispersos",
+    "5 葡萄牙语（Português）": "Acerto Independente para Período Disperso",
+    "6 法语（Français）": "Règlement indépendant pour période dispersée",
+    "7 越南语（Tiếng Việt）": "Thanh toán độc lập cho kỳ rải rác",
+    "8 意大利语（Italiano）": "Regolazione indipendente per periodi sparsi",
+    "9 俄语（Русский）": "Независимый расчет за рассредоточенный период",
+    "10 德语（Deutsch）": "Unabhängige Abrechnung für gestreute Perioden",
+    "11 泰语（ภาษาไทย）": "การตั้งถิ่นฐานอิสระสำหรับช่วงเวลาแบบกระจาย",
+    "12 印度尼西亚语（Bahasa Indonesia）":
+        "Penyelesaian Independen untuk Periode Tersebar",
+    "13 马来语（Bahasa Melayu）": "Penyelesaian Bebas untuk Tempoh Tersebar",
+    "": ""
+  },
+  {
+    "1 简体中文": "不支持5G WiFi网络，请选择2.4G WiFi网络进行配置",
+    "2 English": "5G is not supported. Please select a WiFi of  2.4G.",
+    "3 繁体中文": "鎖不支持5G WiFi網絡，請選擇2.4G WiFi網絡進行配置",
+    "4 西班牙语（Español）": "5G no es compatible. Seleccione una WiFi de 2.4G.",
+    "5 葡萄牙语（Português）":
+        "O  não é suportado. Por favor, selecione um Wi-Fi de 2.4G.",
+    "6 法语（Français）":
+        "La 5G n'est pas prise en charge. Veuillez sélectionner un WiFi de 2.4G.",
+    "7 越南语（Tiếng Việt）": "5GHz không được hỗ trợ. Vui lòng chọn WiFi là 2.4GHz",
+    "8 意大利语（Italiano）": "5G non è supportato. Selezionare un WiFi di 2,4 g.",
+    "9 俄语（Русский）": "5G не поддерживается. Пожалуйста, выберите WiFi 2.4G.",
+    "10 德语（Deutsch）":
+        "5G wird nicht unterstützt. Bitte wählen Sie ein WiFi von 2.4G.",
+    "11 泰语（ภาษาไทย）": "ไม่รองรับ 5G กรุณาเลือก WiFi แบบ 2.4G",
+    "12 印度尼西亚语（Bahasa Indonesia）": "5G tidak didukung. Harap pilih WiFi 2.4G",
+    "13 马来语（Bahasa Melayu）": "5G tidak disokong. Sila pilih WiFi 2.4G",
+    "": ""
+  },
+   {
+    "简体中文": "抄表时间",
+    "2 English": "Meter reading time",
+    "3 繁体中文": "抄表時間",
+    "4 西班牙语（Español）": "Hora de lectura del medidor",
+    "5 葡萄牙语（Português）": "Hora da Leitura do Medidor",
+    "6 法语（Français）": "Heure de relevé",
+    "7 越南语（Tiếng Việt）": "Thời điểm đọc chỉ số đồng hồ",
+    "8 意大利语（Italiano）": "Ora lettura contatore",
+    "9 俄语（Русский）": "Время снятия показаний счетчика",
+    "10 德语（Deutsch）": "Zählerstand-Zeit",
+    "11 泰语（ภาษาไทย）": "เวลาอ่านค่ามิเตอร์",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Waktu Pembacaan Meter",
+    "13 马来语（Bahasa Melayu）": "Masa Baca Meter",
+    "": ""
+  },
+  {
+    "简体中文": "请输入APN",
+    "2 English": "Enter APN",
+    "3 繁体中文": "請輸入APN",
+    "4 西班牙语（Español）": "Ingresar APN",
+    "5 葡萄牙语（Português）": "Inserir APN",
+    "6 法语（Français）": "Saisir le nom du point d’accès (APN)",
+    "7 越南语（Tiếng Việt）": "Nhập APN",
+    "8 意大利语（Italiano）": "Inserisci APN",
+    "9 俄语（Русский）": "Введите APN",
+    "10 德语（Deutsch）": "APN eingeben",
+    "11 泰语（ภาษาไทย）": "ป้อน APN",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Masukkan APN",
+    "13 马来语（Bahasa Melayu）": "Masukkan APN",
+    "": ""
+  },
+  {
+    "简体中文": "未配置",
+    "2 English": "Not Configured",
+    "3 繁体中文": "未設定",
+    "4 西班牙语（Español）": "No configurado",
+    "5 葡萄牙语（Português）": "Não configurado",
+    "6 法语（Français）": "Non configuré",
+    "7 越南语（Tiếng Việt）": "Chưa cấu hình",
+    "8 意大利语（Italiano）": "Non configurato",
+    "9 俄语（Русский）": "Не настроено",
+    "10 德语（Deutsch）": "Nicht konfiguriert",
+    "11 泰语（ภาษาไทย）": "ยังไม่ได้กำหนดค่า",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Belum Dikonfigurasi",
+    "13 马来语（Bahasa Melayu）": "Tidak Dikonfigurasi",
+    "": ""
+  },
+  {
+    "简体中文": "供电方式",
+    "2 English": "Power Supply Method",
+    "3 繁体中文": "供電方式",
+    "4 西班牙语（Español）": "Método de alimentación",
+    "5 葡萄牙语（Português）": "Método de Alimentação",
+    "6 法语（Français）": "Méthode d’alimentation",
+    "7 越南语（Tiếng Việt）": "Phương thức cấp nguồn",
+    "8 意大利语（Italiano）": "Metodo di Alimentazione",
+    "9 俄语（Русский）": "Способ питания",
+    "10 德语（Deutsch）": "Stromversorgungsmethode",
+    "11 泰语（ภาษาไทย）": "วิธีจ่ายไฟ",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Metode Suplai Daya",
+    "13 马来语（Bahasa Melayu）": "Kaedah Bekalan Kuasa",
+    "": ""
+  },
+  {
+    "简体中文": "电池供电",
+    "2 English": "Battery Powered",
+    "3 繁体中文": "電池供電",
+    "4 西班牙语（Español）": "Alimentado por batería",
+    "5 葡萄牙语（Português）": "Alimentado por bateria",
+    "6 法语（Français）": "Alimenté par batterie",
+    "7 越南语（Tiếng Việt）": "Pin",
+    "8 意大利语（Italiano）": "Alimentato a batteria",
+    "9 俄语（Русский）": "Питание от батареи",
+    "10 德语（Deutsch）": "Batteriebetrieben",
+    "11 泰语（ภาษาไทย）": "ใช้แบตเตอรี่",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Bertenaga Baterai",
+    "13 马来语（Bahasa Melayu）": "Bateri Berkuasa",
+    "": ""
+  },
+  {
+    "简体中文": "直流供电",
+    "2 English": "DC Powered",
+    "3 繁体中文": "直流供電",
+    "4 西班牙语（Español）": "Alimentado por CC",
+    "5 葡萄牙语（Português）": "Alimentado por CC",
+    "6 法语（Français）": "Alimenté en courant continu",
+    "7 越南语（Tiếng Việt）": "Cấp nguồn DC",
+    "8 意大利语（Italiano）": "Alimentato a CC",
+    "9 俄语（Русский）": "Питание от постоянного тока",
+    "10 德语（Deutsch）": "DC-Stromversorgung",
+    "11 泰语（ภาษาไทย）": "จ่ายไฟแบบ DC",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Bertenaga DC",
+    "13 马来语（Bahasa Melayu）": "Berdaya DC",
+    "": ""
+  },
+  {
+    "简体中文": "模块号",
+    "2 English": "Module No.",
+    "3 繁体中文": "模組號",
+    "4 西班牙语（Español）": "N.º módulo",
+    "5 葡萄牙语（Português）": "Nº do módulo",
+    "6 法语（Français）": "N° module",
+    "7 越南语（Tiếng Việt）": "Số module",
+    "8 意大利语（Italiano）": "N. modulo",
+    "9 俄语（Русский）": "Номер модуля",
+    "10 德语（Deutsch）": "Modul-Nr.",
+    "11 泰语（ภาษาไทย）": "หมายเลขโมดูล",
+    "12 印度尼西亚语（Bahasa Indonesia）": "No. Modul",
+    "13 马来语（Bahasa Melayu）": "No. Modul",
+    "": ""
+  },
+  {
+    "简体中文": "获取",
+    "2 English": "Get",
+    "3 繁体中文": "取得",
+    "4 西班牙语（Español）": "Obt.",
+    "5 葡萄牙语（Português）": "Obter",
+    "6 法语（Français）": "Obtenir",
+    "7 越南语（Tiếng Việt）": "Lấy",
+    "8 意大利语（Italiano）": "Ottieni",
+    "9 俄语（Русский）": "Получить",
+    "10 德语（Deutsch）": "Abrufen",
+    "11 泰语（ภาษาไทย）": "รับ",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Ambil",
+    "13 马来语（Bahasa Melayu）": "Dapatkan",
+    "": ""
+  },
+  {
+    "简体中文": "中国电信",
+    "2 English": "China Telecom",
+    "3 繁体中文": "中國電信",
+    "4 西班牙语（Español）": "China Telecom",
+    "5 葡萄牙语（Português）": "China Telecom",
+    "6 法语（Français）": "China Telecom",
+    "7 越南语（Tiếng Việt）": "China Telecom",
+    "8 意大利语（Italiano）": "China Telecom",
+    "9 俄语（Русский）": "China Telecom",
+    "10 德语（Deutsch）": "China Telecom",
+    "11 泰语（ภาษาไทย）": "China Telecom",
+    "12 印度尼西亚语（Bahasa Indonesia）": "China Telecom",
+    "13 马来语（Bahasa Melayu）": "China Telecom",
+    "": ""
+  },
+  {
+    "简体中文": "中国移动",
+    "2 English": "China Mobile",
+    "3 繁体中文": "中國移動",
+    "4 西班牙语（Español）": "China Mobile",
+    "5 葡萄牙语（Português）": "China Mobile",
+    "6 法语（Français）": "China Mobile",
+    "7 越南语（Tiếng Việt）": "China Mobile",
+    "8 意大利语（Italiano）": "China Mobile",
+    "9 俄语（Русский）": "China Mobile",
+    "10 德语（Deutsch）": "China Mobile",
+    "11 泰语（ภาษาไทย）": "China Mobile",
+    "12 印度尼西亚语（Bahasa Indonesia）": "China Mobile",
+    "13 马来语（Bahasa Melayu）": "China Mobile",
+    "": ""
+  },
+  {
+    "简体中文": "中国联通",
+    "2 English": "China Unicom",
+    "3 繁体中文": "中國聯通",
+    "4 西班牙语（Español）": "China Unicom",
+    "5 葡萄牙语（Português）": "China Unicom",
+    "6 法语（Français）": "China Unicom",
+    "7 越南语（Tiếng Việt）": "China Unicom",
+    "8 意大利语（Italiano）": "China Unicom",
+    "9 俄语（Русский）": "China Unicom",
+    "10 德语（Deutsch）": "China Unicom",
+    "11 泰语（ภาษาไทย）": "China Unicom",
+    "12 印度尼西亚语（Bahasa Indonesia）": "China Unicom",
+    "13 马来语（Bahasa Melayu）": "China Unicom",
+    "": ""
+  },
+   {
+    "简体中文": "设备已被移入回收站",
+    "2 English": "The device has been removed.",
+    "3 繁体中文": "裝置已移至資源回收筒",
+    "4 西班牙语（Español）": "El dispositivo ha sido eliminado.",
+    "5 葡萄牙语（Português）": "O dispositivo foi removido.",
+    "6 法语（Français）": "Appareil supprimé.",
+    "7 越南语（Tiếng Việt）": "Thiết bị đã được gỡ bỏ.",
+    "8 意大利语（Italiano）": "Il dispositivo è stato rimosso.",
+    "9 俄语（Русский）": "Устройство удалено.",
+    "10 德语（Deutsch）": "Das Gerät wurde entfernt.",
+    "11 泰语（ภาษาไทย）": "อุปกรณ์ถูกลบออกแล้ว",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Perangkat telah dihapus.",
+    "13 马来语（Bahasa Melayu）": "Peranti telah dialih keluar.",
+    "": ""
+  },
+  {
+    "简体中文": "设备已被添加",
+    "2 English": "The device has been added yet.",
+    "3 繁体中文": "裝置已新增",
+    "4 西班牙语（Español）": "El dispositivo ya ha sido agregado.",
+    "5 葡萄牙语（Português）": "O dispositivo já foi adicionado.",
+    "6 法语（Français）": "L’appareil est déjà ajouté.",
+    "7 越南语（Tiếng Việt）": "Thiết bị đã được thêm rồi.",
+    "8 意大利语（Italiano）": "Il dispositivo è già stato aggiunto.",
+    "9 俄语（Русский）": "Устройство уже добавлено.",
+    "10 德语（Deutsch）": "Das Gerät wurde bereits hinzugefügt.",
+    "11 泰语（ภาษาไทย）": "อุปกรณ์นี้ถูกเพิ่มแล้ว",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Perangkat sudah ditambahkan.",
+    "13 马来语（Bahasa Melayu）": "Peranti telah ditambahkan.",
+    "": ""
+  },
+  {
+    "简体中文": "请重置后再添加",
+    "2 English": "Please reset before adding",
+    "3 繁体中文": "請先重置再新增",
+    "4 西班牙语（Español）": "Restablecer antes de agregar",
+    "5 葡萄牙语（Português）": "Redefinir antes de adicionar",
+    "6 法语（Français）": "Veuillez réinitialiser avant d’ajouter",
+    "7 越南语（Tiếng Việt）": "Vui lòng đặt lại trước khi thêm",
+    "8 意大利语（Italiano）": "Ripristina prima di aggiungere",
+    "9 俄语（Русский）": "Перед добавлением выполните сброс",
+    "10 德语（Deutsch）": "Bitte vor dem Hinzufügen zurücksetzen",
+    "11 泰语（ภาษาไทย）": "กรุณาตั้งค่าใหม่ก่อนเพิ่ม",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Harap atur ulang sebelum menambahkan",
+    "13 马来语（Bahasa Melayu）": "Sila tetapkan semula sebelum menambah",
+    "": ""
+  },
+  {
+    "简体中文": "请重置后再添加或联系客服处理",
+    "2 English": "Please reset and try again, or contact customer service.",
+    "3 繁体中文": "請重設後再新增，或聯絡客服處理",
+    "4 西班牙语（Español）": "Restablezca y vuelva a intentarlo, o póngase en contacto con el servicio al cliente.",
+    "5 葡萄牙语（Português）": "Reinicialize e tente novamente ou entre em contato com o suporte.",
+    "6 法语（Français）": "Veuillez réinitialiser et réessayer, ou contacter le service client.",
+    "7 越南语（Tiếng Việt）": "Vui lòng đặt lại và thử lại, hoặc liên hệ bộ phận hỗ trợ khách hàng.",
+    "8 意大利语（Italiano）": "Ripristinare e riprovare o contattare l’assistenza clienti.",
+    "9 俄语（Русский）": "Повторите сброс или обратитесь в службу поддержки.",
+    "10 德语（Deutsch）": "Bitte zurücksetzen und erneut versuchen oder Kundenservice kontaktieren.",
+    "11 泰语（ภาษาไทย）": "กรุณาตั้งค่าใหม่แล้วลองอีกครั้ง หรือติดต่อฝ่ายบริการลูกค้า",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Silakan atur ulang dan coba lagi, atau hubungi layanan pelanggan.",
+    "13 马来语（Bahasa Melayu）": "Sila tetapkan semula dan cuba lagi, atau hubungi khidmat pelanggan.",
+    "": ""
+  },
+  {
+    "简体中文": "联系客服处理",
+    "2 English": "Contact customer service",
+    "3 繁体中文": "聯絡客服處理",
+    "4 西班牙语（Español）": "Contacte al servicio al cliente",
+    "5 葡萄牙语（Português）": "Contate o serviço de atendimento ao cliente",
+    "6 法语（Français）": "Contacter le service client",
+    "7 越南语（Tiếng Việt）": "Liên hệ dịch vụ khách hàng",
+    "8 意大利语（Italiano）": "Contatta l’assistenza clienti",
+    "9 俄语（Русский）": "Обратитесь в службу поддержки",
+    "10 德语（Deutsch）": "Kundenservice kontaktieren",
+    "11 泰语（ภาษาไทย）": "ติดต่อฝ่ายบริการลูกค้า",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Hubungi layanan pelanggan",
+    "13 马来语（Bahasa Melayu）": "Hubungi khidmat pelanggan",
+    "": ""
+  },
+  {
+    "简体中文": "联系经销商处理",
+    "2 English": "Contact dealer for assistance",
+    "3 繁体中文": "聯絡經銷商處理",
+    "4 西班牙语（Español）": "Contacte al distribuidor para obtener ayuda",
+    "5 葡萄牙语（Português）": "Contate o distribuidor para obter assistência",
+    "6 法语（Français）": "Contacter le revendeur pour assistance",
+    "7 越南语（Tiếng Việt）": "Liên hệ đại lý để được hỗ trợ",
+    "8 意大利语（Italiano）": "Contattare il rivenditore per assistenza",
+    "9 俄语（Русский）": "Обратитесь к дилеру за помощью",
+    "10 德语（Deutsch）": "Kontaktieren Sie den Händler für Unterstützung",
+    "11 泰语（ภาษาไทย）": "ติดต่อผู้จัดจำหน่ายเพื่อขอความช่วยเหลือ",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Hubungi dealer untuk bantuan",
+    "13 马来语（Bahasa Melayu）": "Hubungi pembekal untuk bantuan",
+    "": ""
+  },
+   {
+    "简体中文": "请设置你的开门方向",
+    "2 English": "Set Door Opening Direction",
+    "3 繁体中文": "請設定開門方向",
+    "4 西班牙语（Español）": "Establecer dirección de apertura de puerta",
+    "5 葡萄牙语（Português）": "Definir Direção de Abertura da Porta",
+    "6 法语（Français）": "Définir le sens d’ouverture de la porte",
+    "7 越南语（Tiếng Việt）": "Đặt hướng mở cửa",
+    "8 意大利语（Italiano）": "Imposta direzione apertura porta",
+    "9 俄语（Русский）": "Установить направление открытия двери",
+    "10 德语（Deutsch）": "Türöffnungsrichtung festlegen",
+    "11 泰语（ภาษาไทย）": "ตั้งทิศทางเปิดประตู",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Atur Arah Pembukaan Pintu",
+    "13 马来语（Bahasa Melayu）": "Tetapkan Arah Pembukaan Pintu",
+    "": ""
+  },
+  {
+    "简体中文": "请选择开门方向",
+    "2 English": "Select Door Opening Direction",
+    "3 繁体中文": "請選擇開門方向",
+    "4 西班牙语（Español）": "Seleccionar dirección de apertura de la puerta",
+    "5 葡萄牙语（Português）": "Selecionar sentido de abertura da porta",
+    "6 法语（Français）": "Sélectionner le sens d’ouverture de la porte",
+    "7 越南语（Tiếng Việt）": "Chọn hướng mở cửa",
+    "8 意大利语（Italiano）": "Seleziona direzione apertura porta",
+    "9 俄语（Русский）": "Выберите направление открывания двери",
+    "10 德语（Deutsch）": "Türöffnungsrichtung wählen",
+    "11 泰语（ภาษาไทย）": "เลือกทิศทางการเปิดประตู",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Pilih Arah Pembukaan Pintu",
+    "13 马来语（Bahasa Melayu）": "Pilih Arah Pembukaan Pintu",
+    "": ""
+  },
+  {
+    "简体中文": "向右开",
+    "2 English": "Right opening",
+    "3 繁体中文": "右開",
+    "4 西班牙语（Español）": "Apertura derecha",
+    "5 葡萄牙语（Português）": "Abertura à direita",
+    "6 法语（Français）": "Ouverture à droite",
+    "7 越南语（Tiếng Việt）": "Mở bên phải",
+    "8 意大利语（Italiano）": "Apertura a destra",
+    "9 俄语（Русский）": "Открывание справа",
+    "10 德语（Deutsch）": "Rechtsöffnung",
+    "11 泰语（ภาษาไทย）": "เปิดทางขวา",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Buka ke kanan",
+    "13 马来语（Bahasa Melayu）": "Buka ke kanan",
+    "": ""
+  },
+  {
+    "简体中文": "向左开",
+    "2 English": "Left opening",
+    "3 繁体中文": "左開",
+    "4 西班牙语（Español）": "Apertura izquierda",
+    "5 葡萄牙语（Português）": "Abertura à esquerda",
+    "6 法语（Français）": "Ouverture à gauche",
+    "7 越南语（Tiếng Việt）": "Mở bên trái",
+    "8 意大利语（Italiano）": "Apertura a sinistra",
+    "9 俄语（Русский）": "Открывание слева",
+    "10 德语（Deutsch）": "Links öffnend",
+    "11 泰语（ภาษาไทย）": "เปิดด้านซ้าย",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Buka kiri",
+    "13 马来语（Bahasa Melayu）": "Buka ke kiri",
+    "": ""
+  },
+  {
+    "简体中文": "水量将在24小时内通过4G网络更新",
+    "2 English": "Water volume will be updated via 4G within 24h",
+    "3 繁体中文": "水量將於24小時內透過4G更新",
+    "4 西班牙语（Español）": "El volumen de agua se actualizará mediante 4G en 24 h",
+    "5 葡萄牙语（Português）": "Volume de água será atualizado via 4G em até 24h",
+    "6 法语（Français）": "Le volume d’eau sera mis à jour via 4G sous 24 h",
+    "7 越南语（Tiếng Việt）": "Lượng nước sẽ được cập nhật qua 4G trong vòng 24h",
+    "8 意大利语（Italiano）": "Il volume dell’acqua verrà aggiornato tramite 4G entro 24 ore",
+    "9 俄语（Русский）": "Объём воды будет обновлён через 4G в течение 24 ч",
+    "10 德语（Deutsch）": "Wasservolumen wird innerhalb von 24 h per 4G aktualisiert",
+    "11 泰语（ภาษาไทย）": "ปริมาณน้ำจะอัปเดตผ่าน 4G ภายใน 24 ชม.",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Volume air akan diperbarui via 4G dalam 24 jam",
+    "13 马来语（Bahasa Melayu）": "Isipadu air akan dikemaskini melalui 4G dalam tempoh 24 jam",
+    "": ""
+  },
+  {
+    "简体中文": "剩余水量将在24小时内通过4G网络清零并断水",
+    "2 English": "Water remaining will be reset to zero and water supply cut off within 24 hours via 4G network",
+    "3 繁体中文": "剩餘水量將於24小時內透過4G網路歸零並斷水",
+    "4 西班牙语（Español）": "El agua restante se restablecerá a cero y el suministro se cortará en 24 horas mediante red 4G",
+    "5 葡萄牙语（Português）": "Água restante será redefinida para zero e o fornecimento de água interrompido em até 24 h via rede 4G",
+    "6 法语（Français）": "L’eau restante sera réinitialisée à zéro et l’alimentation en eau coupée sous 24 h via le réseau 4G",
+    "7 越南语（Tiếng Việt）": "Lượng nước còn lại sẽ được đặt lại về 0 và nguồn cấp nước sẽ bị cắt trong vòng 24 giờ qua mạng 4G",
+    "8 意大利语（Italiano）": "L’acqua residua verrà reimpostata a zero e l’erogazione interrotta entro 24 ore tramite rete 4G",
+    "9 俄语（Русский）": "Остаток воды будет сброшен до нуля, подача воды прекращена в течение 24 ч через сеть 4G",
+    "10 德语（Deutsch）": "Verbleibendes Wasser wird innerhalb von 24 Stunden über das 4G-Netz auf null zurückgesetzt und die Wasserversorgung unterbrochen.",
+    "11 泰语（ภาษาไทย）": "น้ำที่เหลือจะถูกรีเซ็ตเป็นศูนย์ และตัดการจ่ายน้ำภายใน 24 ชั่วโมงผ่านเครือข่าย 4G",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Sisa air akan direset ke nol dan pasokan air diputus dalam 24 jam melalui jaringan 4G",
+    "13 马来语（Bahasa Melayu）": "Baki air akan ditetapkan semula kepada sifar dan bekalan air akan diputuskan dalam tempoh 24 jam melalui rangkaian 4G",
+    "": ""
+  },
+  {
+    "简体中文": "断水指令将在24小时内通过4G网络执行",
+    "2 English": "Water cutoff command will be executed via 4G within 24 hours",
+    "3 繁体中文": "斷水指令將於24小時內透過4G網路執行",
+    "4 西班牙语（Español）": "La orden de corte de agua se ejecutará mediante 4G en 24 horas.",
+    "5 葡萄牙语（Português）": "Comando de corte de água será executado via 4G em até 24 horas",
+    "6 法语（Français）": "La commande de coupure d’eau sera exécutée via 4G sous 24 h",
+    "7 越南语（Tiếng Việt）": "Lệnh cắt nước sẽ được thực hiện qua 4G trong vòng 24 giờ",
+    "8 意大利语（Italiano）": "Comando di interruzione dell’acqua eseguito tramite 4G entro 24 ore",
+    "9 俄语（Русский）": "Команда отключения воды будет выполнена через 4G в течение 24 ч",
+    "10 德语（Deutsch）": "Wassersperre wird innerhalb von 24 Std. per 4G ausgeführt.",
+    "11 泰语（ภาษาไทย）": "คำสั่งตัดน้ำจะถูกดำเนินการผ่าน 4G ภายใน 24 ชม.",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Perintah pemutusan pasokan air akan dieksekusi via 4G dalam 24 jam",
+    "13 马来语（Bahasa Melayu）": "Arahan pemutusan bekalan air akan dilaksanakan melalui 4G dalam masa 24 jam",
+    "": ""
+  },
+  {
+    "简体中文": "通水指令将在24小时内通过4G网络执行",
+    "2 English": "Water supply command will be executed via 4G within 24 hours",
+    "3 繁体中文": "通水指令將於24小時內透過4G網路執行",
+    "4 西班牙语（Español）": "El comando de suministro de agua se ejecutará mediante 4G en 24 horas.",
+    "5 葡萄牙语（Português）": "Comando de abastecimento de água será executado via 4G em até 24 horas",
+    "6 法语（Français）": "La commande d’alimentation en eau sera exécutée via 4G sous 24 h",
+    "7 越南语（Tiếng Việt）": "Lệnh cấp nước sẽ được thực hiện qua 4G trong vòng 24 giờ",
+    "8 意大利语（Italiano）": "Il comando per l’erogazione dell’acqua verrà eseguito tramite 4G entro 24 ore",
+    "9 俄语（Русский）": "Команда на подачу воды будет выполнена через 4G в течение 24 ч",
+    "10 德语（Deutsch）": "Wasserversorgungsbefehl wird innerhalb von 24 h per 4G ausgeführt",
+    "11 泰语（ภาษาไทย）": "คำสั่งจ่ายน้ำจะถูกดำเนินการผ่าน 4G ภายใน 24 ชม.",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Perintah pasokan air akan dieksekusi melalui 4G dalam 24 jam",
+    "13 马来语（Bahasa Melayu）": "Arahan bekalan air akan dilaksanakan melalui 4G dalam masa 24 jam",
+    "": ""
+  },
+  {
+    "简体中文": "允许租客通断电",
+    "2 English": "Allow Tenant Power Control",
+    "3 繁体中文": "允租客斷電",
+    "4 西班牙语（Español）": "Permitir control de energía al inquilino",
+    "5 葡萄牙语（Português）": "Permitir Controle de Energia pelo Inquilino",
+    "6 法语（Français）": "Autoriser la commande de l’alimentation par le locataire",
+    "7 越南语（Tiếng Việt）": "Cho phép kiểm soát nguồn điện cho khách thuê",
+    "8 意大利语（Italiano）": "Consenti controllo energia inquilino",
+    "9 俄语（Русский）": "Разрешить управление питанием для арендатора",
+    "10 德语（Deutsch）": "Mieter-Stromsteuerung erlauben",
+    "11 泰语（ภาษาไทย）": "อนุญาตการควบคุมพลังงานของผู้เช่า",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Izinkan Kontrol Daya Penyewa",
+    "13 马来语（Bahasa Melayu）": "Benarkan Kawalan Kuasa Penyewa",
+    "": ""
+  },
+  {
+    "简体中文": "开启后允许租客操作通断电",
+    "2 English": "Enable tenant power on/off control",
+    "3 繁体中文": "啟用後允許房客控制電源開關",
+    "4 西班牙语（Español）": "Habilitar control encendido/apagado para inquilinos",
+    "5 葡萄牙语（Português）": "Habilitar controle de ligar/desligar energia do inquilino",
+    "6 法语（Français）": "Activer la commande marche/arrêt pour les locataires",
+    "7 越南语（Tiếng Việt）": "Bật/tắt điều khiển nguồn cho người thuê",
+    "8 意大利语（Italiano）": "Abilita controllo accensione/spegnimento energia inquilino",
+    "9 俄语（Русский）": "Включить управление питанием для арендатора",
+    "10 德语（Deutsch）": "Mieter-Stromsteuerung aktivieren",
+    "11 泰语（ภาษาไทย）": "เปิดใช้งานการควบคุมเปิด/ปิดไฟฟ้าสำหรับผู้เช่า",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Aktifkan kontrol nyala/matikan daya penyewa",
+    "13 马来语（Bahasa Melayu）": "Benarkan kawalan hidup/mati kuasa penyewa",
+    "": ""
+  },
+  {
+    "简体中文": "允许租客通断水",
+    "2 English": "Allow tenant water on/off",
+    "3 繁体中文": "允租客開關水",
+    "4 西班牙语（Español）": "Permitir agua inquilino enc./apag.",
+    "5 葡萄牙语（Português）": "Permitir água do inquilino LIG/DES",
+    "6 法语（Français）": "Autoriser l’eau du locataire (ON/OFF)",
+    "7 越南语（Tiếng Việt）": "Cho phép chủ thuê bật/tắt nước",
+    "8 意大利语（Italiano）": "Consenti accensione/spegnimento acqua inquilino",
+    "9 俄语（Русский）": "Разрешить арендатору включать/выключать воду",
+    "10 德语（Deutsch）": "Mieter-Wasser zulassen ein/aus",
+    "11 泰语（ภาษาไทย）": "เปิด/ปิดน้ำให้ผู้เช่า",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Izinkan penyewa menghidupkan/mematikan air",
+    "13 马来语（Bahasa Melayu）": "Benarkan penyewa hidup/matikan air",
+    "": ""
+  },
+  {
+    "简体中文": "开启后允许租客操作通断水",
+    "2 English": "Enable tenant water on/off control",
+    "3 繁体中文": "啟用後允許房客控制停/供水",
+    "4 西班牙语（Español）": "Habilitar control de agua inquilino",
+    "5 葡萄牙语（Português）": "Habilitar controle de água do inquilino",
+    "6 法语（Français）": "Activer le contrôle eau locataire",
+    "7 越南语（Tiếng Việt）": "Bật/tắt điều khiển nước cho cư dân",
+    "8 意大利语（Italiano）": "Abilita controllo accensione/spegnimento acqua inquilino",
+    "9 俄语（Русский）": "Вкл./выкл. управление водой для арендатора",
+    "10 德语（Deutsch）": "Mieter-Wasserversorgung ein/aus",
+    "11 泰语（ภาษาไทย）": "เปิด/ปิดการควบคุมน้ำสำหรับผู้เช่า",
+    "12 印度尼西亚语（Bahasa Indonesia）": "Aktifkan kontrol nyala/matikan air penyewa",
+    "13 马来语（Bahasa Melayu）": "Benarkan kawalan air penyewa nyala/padam",
+    "": ""
   }
+  
+  
 ];
 Map<String, String> en = {
   "：": ":",
